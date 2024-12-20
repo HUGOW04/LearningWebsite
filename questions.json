@@ -1,0 +1,25 @@
+{
+  "flashcards": [
+    {
+      "question": "What does WAN stand for?",
+      "answer": "Wide Area Network"
+    }
+  ],
+  "multipleChoiceQuestions": [
+      {
+          "question": "What does WAN stand for?",
+          "options": ["Wide Area Network", "Wireless Access Node", "Web Access Network", "Wireless Area Network"],
+          "answer": 0
+      },
+      {
+          "question": "How many bits are in an IPv4 address?",
+          "options": ["16 bits", "32 bits", "64 bits", "128 bits"],
+          "answer": 1
+      },
+      {
+          "question": "How many bits are in an IPv6 address?",
+          "options": ["64 bits", "96 bits", "128 bits", "256 bits"],
+          "answer": 2
+      }
+  ]
+}
