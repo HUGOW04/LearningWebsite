@@ -1,0 +1,42 @@
+[
+    {
+      "question": "What is a firewall?",
+      "answer": "A network security device that monitors and filters incoming and outgoing network traffic based on predetermined security rules"
+    },
+    {
+      "question": "What is the purpose of encryption?",
+      "answer": "To convert data into a format that cannot be read without the proper decryption key or password"
+    },
+    {
+      "question": "What is two-factor authentication (2FA)?",
+      "answer": "A security process that requires users to provide two different authentication factors to verify their identity"
+    },
+    {
+      "question": "What is a VPN?",
+      "answer": "A Virtual Private Network that creates a secure, encrypted connection over a less secure network"
+    },
+    {
+      "question": "What is malware?",
+      "answer": "Malicious software designed to harm computers, networks, or servers"
+    },
+    {
+      "question": "What is phishing?",
+      "answer": "A cybercrime where targets are contacted by email, phone, or text by someone posing as a legitimate institution to steal sensitive data"
+    },
+    {
+      "question": "What is a DDoS attack?",
+      "answer": "Distributed Denial of Service - an attack that attempts to make a network resource unavailable by flooding it with traffic from multiple sources"
+    },
+    {
+      "question": "What is a vulnerability assessment?",
+      "answer": "A systematic review of security weaknesses in an information system to identify potential security risks"
+    },
+    {
+      "question": "What is a zero-day exploit?",
+      "answer": "An attack that targets a previously unknown security vulnerability before it can be patched"
+    },
+    {
+      "question": "What is social engineering?",
+      "answer": "The psychological manipulation of people into performing actions or divulging confidential information"
+    }
+  ]
