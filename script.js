@@ -39,7 +39,6 @@ function updateScoreDisplay() {
         Security+ Score: ${secPlusScore}/900 ${isPassing ? '✓' : '×'}
     `;
     
-    // Remove existing score display if it exists
     const existingScore = document.getElementById('score-display');
     if (existingScore) {
         existingScore.remove();
@@ -48,7 +47,6 @@ function updateScoreDisplay() {
 }
 
 function initializeApp() {
-    // Get DOM elements
     const flashcardElement = document.getElementById("flashcard");
     const flashcardQuestion = document.getElementById("question");
     const flashcardAnswer = document.getElementById("answer");
@@ -61,15 +59,44 @@ function initializeApp() {
 
     let currentFlashcardIndex = 0;
     let currentMCIndex = 0;
+    let remainingFlashcards = [];
+    let remainingMCQuestions = [];
+
+    // Initialize question pools
+    function resetQuestionPools() {
+        remainingFlashcards = [...flashcards];
+        remainingMCQuestions = [...multipleChoiceQuestions];
+        shuffleArray(remainingFlashcards);
+        shuffleArray(remainingMCQuestions);
+    }
+
+    // Get next random flashcard
+    function getNextFlashcard() {
+        if (remainingFlashcards.length === 0) {
+            remainingFlashcards = [...flashcards];
+            shuffleArray(remainingFlashcards);
+        }
+        return remainingFlashcards.pop();
+    }
+
+    // Get next random MC question
+    function getNextMCQuestion() {
+        if (remainingMCQuestions.length === 0) {
+            remainingMCQuestions = [...multipleChoiceQuestions];
+            shuffleArray(remainingMCQuestions);
+        }
+        return remainingMCQuestions.pop();
+    }
 
     // Flashcard functionality
     function showFlashcardContent(showAnswer = false) {
+        const currentCard = remainingFlashcards[remainingFlashcards.length - 1];
         if (showAnswer) {
-            flashcardAnswer.textContent = flashcards[currentFlashcardIndex].answer;
+            flashcardAnswer.textContent = currentCard.answer;
             flashcardQuestion.textContent = "";
             flashcardElement.classList.add("flipped");
         } else {
-            flashcardQuestion.textContent = flashcards[currentFlashcardIndex].question;
+            flashcardQuestion.textContent = currentCard.question;
             flashcardAnswer.textContent = "";
             flashcardElement.classList.remove("flipped");
         }
@@ -81,13 +108,14 @@ function initializeApp() {
     });
 
     nextCardBtn.addEventListener("click", () => {
-        currentFlashcardIndex = (currentFlashcardIndex + 1) % flashcards.length;
+        getNextFlashcard();
         showFlashcardContent(false);
     });
 
     startTestBtn.addEventListener("click", () => {
         document.getElementById("flashcard-section").style.display = "none";
         document.getElementById("multiple-choice-section").style.display = "block";
+        resetQuestionPools();
         showMultipleChoiceQuestion();
     });
 
@@ -100,7 +128,7 @@ function initializeApp() {
         mcFeedback.className = "feedback";
         
         setTimeout(() => {
-            const currentQuestion = multipleChoiceQuestions[currentMCIndex];
+            const currentQuestion = getNextMCQuestion();
             mcQuestion.textContent = currentQuestion.question;
             mcOptions.innerHTML = "";
             
@@ -137,21 +165,21 @@ function initializeApp() {
         if (selectedOption) {
             const userAnswer = parseInt(selectedOption.value);
             const correctAnswer = parseInt(mcOptions.dataset.correctAnswer);
+            const currentQuestion = remainingMCQuestions[remainingMCQuestions.length - 1];
             
             if (userAnswer === correctAnswer) {
                 mcFeedback.textContent = "Correct!";
                 mcFeedback.className = "feedback correct";
                 score.multipleChoice++;
             } else {
-                mcFeedback.textContent = `Incorrect. The correct answer is: ${multipleChoiceQuestions[currentMCIndex].options[multipleChoiceQuestions[currentMCIndex].answer]}`;
+                mcFeedback.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[currentQuestion.answer]}`;
                 mcFeedback.className = "feedback incorrect";
             }
             
             totalQuestionsAnswered++;
             updateScoreDisplay();
             
-            currentMCIndex++;
-            if (currentMCIndex < multipleChoiceQuestions.length) {
+            if (totalQuestionsAnswered < multipleChoiceQuestions.length) {
                 setTimeout(() => {
                     mcFeedback.className = "feedback";
                     mcFeedback.textContent = "";
@@ -159,43 +187,7 @@ function initializeApp() {
                 }, 2000);
             } else {
                 setTimeout(() => {
-                    // Clear all previous content first
-                    mcQuestion.textContent = "";
-                    mcOptions.innerHTML = "";
-                    
-                    const secPlusScore = calculateSecurityPlusScore();
-                    const isPassing = secPlusScore >= 750;
-                    mcFeedback.className = `feedback ${isPassing ? 'correct' : 'incorrect'}`;
-                    mcFeedback.innerHTML = `
-                        <h3>Practice Test Complete!</h3>
-                        
-                        <p>Your Results:</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li>Score: ${calculateScore()}%</li>
-                            <li>Security+ Score: ${secPlusScore}/900</li>
-                            <li>Total Correct: ${score.multipleChoice} out of ${multipleChoiceQuestions.length}</li>
-                        </ul>
-                        
-                        <h4>Real Exam Requirements:</h4>
-                        <ul style="list-style: none; padding: 0;">
-                            <li>90 minute time limit</li>
-                            <li>Up to 90 total questions</li>
-                            <li>Includes PBQs and simulations</li>
-                            <li>Need 750/900 (83.33%) to pass</li>
-                        </ul>
-            
-                        <h4>Status: ${isPassing ? 
-                            '<span style="color: #4ecca3">✓ PASSING</span>' : 
-                            '<span style="color: #e94560">× NOT YET PASSING</span>'}</h4>
-                        
-                        <p style="margin-top: 15px">${isPassing ? 
-                            'Great work! You\'re meeting the passing requirement.' : 
-                            'Keep practicing! You need 83.33% to pass the real exam.'}</p>
-                    `;
-                    submitMCBtn.style.display = "none";
-                    
-                    // Optional: Hide the section header too
-                    document.querySelector('#multiple-choice-section h2').style.display = 'none';
+                    showFinalResults();
                 }, 2000);
             }
         } else {
@@ -205,27 +197,84 @@ function initializeApp() {
         }
     });
 
+    function showFinalResults() {
+        mcQuestion.textContent = "";
+        mcOptions.innerHTML = "";
+        
+        const secPlusScore = calculateSecurityPlusScore();
+        const isPassing = secPlusScore >= 750;
+        mcFeedback.className = `feedback ${isPassing ? 'correct' : 'incorrect'}`;
+        mcFeedback.innerHTML = `
+            <h3>Practice Test Complete!</h3>
+            
+            <p>Your Results:</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>Score: ${calculateScore()}%</li>
+                <li>Security+ Score: ${secPlusScore}/900</li>
+                <li>Total Correct: ${score.multipleChoice} out of ${multipleChoiceQuestions.length}</li>
+            </ul>
+            
+            <h4>Real Exam Requirements:</h4>
+            <ul style="list-style: none; padding: 0;">
+                <li>90 minute time limit</li>
+                <li>Up to 90 total questions</li>
+                <li>Includes PBQs and simulations</li>
+                <li>Need 750/900 (83.33%) to pass</li>
+            </ul>
+    
+            <h4>Status: ${isPassing ? 
+                '<span style="color: #4ecca3">✓ PASSING</span>' : 
+                '<span style="color: #e94560">× NOT YET PASSING</span>'}</h4>
+            
+            <p style="margin-top: 15px">${isPassing ? 
+                'Great work! You\'re meeting the passing requirement.' : 
+                'Keep practicing! You need 83.33% to pass the real exam.'}</p>
+        `;
+        submitMCBtn.style.display = "none";
+        document.querySelector('#multiple-choice-section h2').style.display = 'none';
+    }
+
     // Initialize first flashcard
+    resetQuestionPools();
     showFlashcardContent();
 }
 
-// Fetch questions from JSON file
-fetch('questions.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log('Loaded data:', data); // Debug log
-        flashcards = shuffleArray(data.flashcards || []);
-        multipleChoiceQuestions = shuffleArray(data.multipleChoiceQuestions || []);
-        console.log('Processed questions:', { flashcards, multipleChoiceQuestions }); // Debug log
-        initializeApp();
-        updateScoreDisplay();
-    })
-    .catch(error => {
-        console.error('Error loading questions:', error);
-        document.body.innerHTML += `<div style="color: red; padding: 20px;">Error loading questions: ${error.message}</div>`;
-    });
+// Function to handle errors
+function handleError(error, type) {
+    console.error(`Error loading ${type}:`, error);
+    document.body.innerHTML += `<div style="color: red; padding: 20px;">Error loading ${type}: ${error.message}</div>`;
+}
+
+// Fetch both JSON files
+Promise.all([
+    fetch('flashcards.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.json();
+        }),
+    fetch('questions.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.json();
+        })
+])
+.then(([loadedFlashcards, loadedQuestions]) => {
+    console.log('Loaded flashcards:', loadedFlashcards);
+    console.log('Loaded questions:', loadedQuestions);
+    
+    flashcards = loadedFlashcards || [];
+    multipleChoiceQuestions = loadedQuestions || [];
+    
+    if (flashcards.length === 0) {
+        throw new Error('No flashcards loaded');
+    }
+    if (multipleChoiceQuestions.length === 0) {
+        throw new Error('No questions loaded');
+    }
+    
+    initializeApp();
+    updateScoreDisplay();
+})
+.catch(error => {
+    handleError(error, 'quiz data');
+});
