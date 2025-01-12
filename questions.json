@@ -1,25 +1,102 @@
-{
-  "flashcards": [
-    {
-      "question": "What does WAN stand for?",
-      "answer": "Wide Area Network"
-    }
-  ],
-  "multipleChoiceQuestions": [
-      {
-          "question": "What does WAN stand for?",
-          "options": ["Wide Area Network", "Wireless Access Node", "Web Access Network", "Wireless Area Network"],
-          "answer": 0
-      },
-      {
-          "question": "How many bits are in an IPv4 address?",
-          "options": ["16 bits", "32 bits", "64 bits", "128 bits"],
-          "answer": 1
-      },
-      {
-          "question": "How many bits are in an IPv6 address?",
-          "options": ["64 bits", "96 bits", "128 bits", "256 bits"],
-          "answer": 2
-      }
-  ]
-}
+[
+  {
+    "question": "Which of the following is NOT a common authentication factor?",
+    "options": [
+      "Something you know (password)",
+      "Something you have (security token)",
+      "Something you predict (future events)",
+      "Something you are (biometrics)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What type of malware locks users out of their files and demands payment for access?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Adware",
+      "Worm"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which encryption algorithm is considered the current standard for symmetric encryption?",
+    "options": [
+      "DES",
+      "3DES",
+      "AES",
+      "RC4"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the main purpose of a SIEM system?",
+    "options": [
+      "To block malicious traffic",
+      "To encrypt network traffic",
+      "To manage security logs and detect threats",
+      "To authenticate users"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which protocol is used to securely access websites?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "HTTPS",
+      "SMTP"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is a Man-in-the-Middle (MitM) attack?",
+    "options": [
+      "A direct attack on a server",
+      "An attack where the attacker secretly relays communications between two parties",
+      "A denial of service attack",
+      "A brute force password attack"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a common network security device?",
+    "options": [
+      "Firewall",
+      "IDS/IPS",
+      "Compiler",
+      "WAF"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of hashing?",
+    "options": [
+      "To encrypt data for secure transmission",
+      "To compress data for storage",
+      "To create a unique, fixed-size value for verifying data integrity",
+      "To speed up database queries"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which port is commonly used for HTTPS traffic?",
+    "options": [
+      "80",
+      "443",
+      "21",
+      "25"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary purpose of a security policy?",
+    "options": [
+      "To make the network faster",
+      "To define rules and guidelines for protecting information assets",
+      "To block all external access",
+      "To monitor employee productivity"
+    ],
+    "answer": 1
+  }
+]
