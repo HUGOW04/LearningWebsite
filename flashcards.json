@@ -1,42 +1,62 @@
 [
     {
-      "question": "What is a firewall?",
-      "answer": "A network security device that monitors and filters incoming and outgoing network traffic based on predetermined security rules"
+      "question": "What are the three components of the CIA Triad?",
+      "answer": "Confidentiality (information accessible only to authorized persons), Integrity (maintaining accuracy of data), and Availability (ensuring information is accessible when needed)"
     },
     {
-      "question": "What is the purpose of encryption?",
-      "answer": "To convert data into a format that cannot be read without the proper decryption key or password"
+      "question": "What is the main purpose of GDPR?",
+      "answer": "To protect personal data of EU/EEA individuals by setting guidelines for data collection and processing, with penalties up to €20 million or 4% of global annual revenue"
     },
     {
-      "question": "What is two-factor authentication (2FA)?",
-      "answer": "A security process that requires users to provide two different authentication factors to verify their identity"
+      "question": "What is the difference between a Data Controller and Data Processor?",
+      "answer": "A Data Controller decides what data is collected and why, while a Data Processor only handles data according to the Controller's instructions"
     },
     {
-      "question": "What is a VPN?",
-      "answer": "A Virtual Private Network that creates a secure, encrypted connection over a less secure network"
+      "question": "What is Pseudonymization?",
+      "answer": "A process where personal data is modified so it can't be directly linked to a person without additional information stored separately"
     },
     {
-      "question": "What is malware?",
-      "answer": "Malicious software designed to harm computers, networks, or servers"
+      "question": "What is CCPA and how does it differ from GDPR?",
+      "answer": "CCPA is California's privacy law for residents' data rights. Unlike GDPR which applies globally to EU data, CCPA only applies to California residents and has less stringent requirements"
     },
     {
-      "question": "What is phishing?",
-      "answer": "A cybercrime where targets are contacted by email, phone, or text by someone posing as a legitimate institution to steal sensitive data"
+      "question": "What is the role of a Data Protection Officer (DPO)?",
+      "answer": "Ensures organization complies with data protection laws, oversees data handling, manages risks, and serves as contact point for privacy concerns"
     },
     {
-      "question": "What is a DDoS attack?",
-      "answer": "Distributed Denial of Service - an attack that attempts to make a network resource unavailable by flooding it with traffic from multiple sources"
+      "question": "What is IEC 62443?",
+      "answer": "An international standard for cybersecurity in industrial automation and control systems (IACS), focusing on protecting operational technology environments"
     },
     {
-      "question": "What is a vulnerability assessment?",
-      "answer": "A systematic review of security weaknesses in an information system to identify potential security risks"
+      "question": "What is PDCA and what are its steps?",
+      "answer": "Plan-Do-Check-Act: A cycle for continuous improvement. Plan (identify problems), Do (implement solution), Check (evaluate results), Act (standardize or adjust)"
     },
     {
-      "question": "What is a zero-day exploit?",
-      "answer": "An attack that targets a previously unknown security vulnerability before it can be patched"
+      "question": "What are the main requirements of HIPAA?",
+      "answer": "Protects personal health information through Privacy Rule (limits data use) and Security Rule (data protection measures)"
     },
     {
-      "question": "What is social engineering?",
-      "answer": "The psychological manipulation of people into performing actions or divulging confidential information"
+      "question": "What is a Data Protection Impact Assessment (DPIA)?",
+      "answer": "A process to identify and minimize risks to personal data during collection, storage, or processing, required by GDPR for high-risk activities"
+    },
+    {
+      "question": "What is the ePrivacy Directive?",
+      "answer": "EU law protecting privacy in electronic communications, requiring cookie consent, ensuring communication confidentiality, and regulating spam"
+    },
+    {
+      "question": "What are the four main security mechanisms?",
+      "answer": "Authentication (verifying identity), Authorization (managing permissions), Non-repudiation (ensuring parties can't deny actions), and Digital signatures/audit logs"
+    },
+    {
+      "question": "What is COPPA?",
+      "answer": "Children's Online Privacy Protection Act - requires websites to get parental consent before collecting data from children under 13"
+    },
+    {
+      "question": "What is PCI DSS?",
+      "answer": "Payment Card Industry Data Security Standard - sets standards for secure payment processing, including encryption and access controls"
+    },
+    {
+      "question": "What constitutes a Personal Data Breach?",
+      "answer": "An incident where personal data is lost, accessed, disclosed, or altered without authorization, potentially compromising privacy"
     }
   ]
