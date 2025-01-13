@@ -129,15 +129,28 @@ function initializeApp() {
         
         setTimeout(() => {
             const currentQuestion = getNextMCQuestion();
+            if (!currentQuestion) {
+                console.error('No question available');
+                return;
+            }
+
+            // Store the current question in a data attribute as JSON
+            mcOptions.dataset.currentQuestion = JSON.stringify(currentQuestion);
+            
             mcQuestion.textContent = currentQuestion.question;
             mcOptions.innerHTML = "";
             
-            const shuffledOptions = [...currentQuestion.options];
-            shuffleArray(shuffledOptions);
+            // Create a new array of options with their original indices
+            const optionsWithIndices = currentQuestion.options.map((option, index) => ({
+                text: option,
+                originalIndex: index
+            }));
             
-            const newCorrectIndex = shuffledOptions.indexOf(currentQuestion.options[currentQuestion.answer]);
+            // Shuffle the options while keeping track of their original indices
+            shuffleArray(optionsWithIndices);
             
-            shuffledOptions.forEach((option, index) => {
+            // Create the radio buttons and store the shuffled order
+            optionsWithIndices.forEach((option, index) => {
                 const label = document.createElement('label');
                 label.style.display = 'block';
                 label.style.margin = '10px 0';
@@ -145,14 +158,13 @@ function initializeApp() {
                 const input = document.createElement('input');
                 input.type = 'radio';
                 input.name = 'mc-option';
-                input.value = index;
+                input.value = option.originalIndex; // Store the original index as the value
                 
                 label.appendChild(input);
-                label.appendChild(document.createTextNode(' ' + option));
+                label.appendChild(document.createTextNode(' ' + option.text));
                 mcOptions.appendChild(label);
             });
             
-            mcOptions.dataset.correctAnswer = newCorrectIndex;
             submitMCBtn.disabled = false;
         }, 1000);
     }
@@ -164,15 +176,23 @@ function initializeApp() {
         const selectedOption = document.querySelector('input[name="mc-option"]:checked');
         if (selectedOption) {
             const userAnswer = parseInt(selectedOption.value);
-            const correctAnswer = parseInt(mcOptions.dataset.correctAnswer);
-            const currentQuestion = remainingMCQuestions[remainingMCQuestions.length - 1];
+            
+            // Retrieve the current question from the data attribute
+            const currentQuestion = JSON.parse(mcOptions.dataset.currentQuestion);
+            
+            if (!currentQuestion) {
+                console.error('Question not found');
+                return;
+            }
+
+            const correctAnswer = currentQuestion.answer;
             
             if (userAnswer === correctAnswer) {
                 mcFeedback.textContent = "Correct!";
                 mcFeedback.className = "feedback correct";
                 score.multipleChoice++;
             } else {
-                mcFeedback.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[currentQuestion.answer]}`;
+                mcFeedback.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[correctAnswer]}`;
                 mcFeedback.className = "feedback incorrect";
             }
             
