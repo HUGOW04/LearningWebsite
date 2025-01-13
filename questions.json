@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which component of the CIA triad ensures that information is only accessible to authorized individuals?",
+    "options": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Authentication"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the maximum fine for violating GDPR?",
+    "options": [
+      "€10 million",
+      "€15 million",
+      "€20 million or 4% of global annual revenue, whichever is higher",
+      "€5 million or 2% of global annual revenue, whichever is higher"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Who determines the purpose and means of processing personal data?",
+    "options": [
+      "Data Subject",
+      "Data Controller",
+      "Data Processor",
+      "Data Protection Officer"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which regulation specifically applies to protecting children's privacy online?",
+    "options": [
+      "GDPR",
+      "CCPA",
+      "COPPA",
+      "HIPAA"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the first step in the PDCA cycle?",
+    "options": [
+      "Do",
+      "Check",
+      "Plan",
+      "Act"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which standard specifically focuses on industrial automation and control systems security?",
+    "options": [
+      "ISO 27000",
+      "NIST 800-53",
+      "IEC 62443",
+      "PCI DSS"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is required under the ePrivacy Directive before storing cookies?",
+    "options": [
+      "User notification",
+      "User consent",
+      "Privacy policy",
+      "Data encryption"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a main component of HIPAA?",
+    "options": [
+      "Privacy Rule",
+      "Security Rule",
+      "Cookie Rule",
+      "Enforcement Rule"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the primary purpose of pseudonymization?",
+    "options": [
+      "To encrypt data",
+      "To delete data",
+      "To make data unidentifiable without additional information",
+      "To compress data"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What security mechanism ensures parties cannot deny the authenticity of their actions?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Non-repudiation",
+      "Encryption"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which law specifically applies to California residents' privacy rights?",
+    "options": [
+      "GDPR",
+      "CCPA",
+      "HIPAA",
+      "ePrivacy Directive"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What must be conducted under GDPR for high-risk data processing activities?",
+    "options": [
+      "Data Protection Impact Assessment",
+      "Security Audit",
+      "Penetration Testing",
+      "Risk Analysis"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which standard is specifically designed for payment card security?",
+    "options": [
+      "ISO 27000",
+      "NIST 800-53",
+      "PCI DSS",
+      "IEC 62443"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does the 'A' in CIA triad stand for?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Availability",
+      "Accountability"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "When is a Data Protection Officer (DPO) required?",
+    "options": [
+      "Only for large companies",
+      "For all companies processing personal data",
+      "For regular and systematic monitoring of data subjects on a large scale",
+      "Only for government organizations"
+    ],
+    "answer": 2
+  }
+]
