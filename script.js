@@ -172,7 +172,7 @@ function initializeApp() {
     submitMCBtn.addEventListener("click", () => {
         if (submitMCBtn.disabled) return;
         submitMCBtn.disabled = true;
-
+    
         const selectedOption = document.querySelector('input[name="mc-option"]:checked');
         if (selectedOption) {
             const userAnswer = parseInt(selectedOption.value);
@@ -184,32 +184,34 @@ function initializeApp() {
                 console.error('Question not found');
                 return;
             }
-
+    
             const correctAnswer = currentQuestion.answer;
             
+            // Always show feedback and correct answer
             if (userAnswer === correctAnswer) {
                 mcFeedback.textContent = "Correct!";
                 mcFeedback.className = "feedback correct";
                 score.multipleChoice++;
             } else {
-                mcFeedback.textContent = `Incorrect. The correct answer is: ${currentQuestion.options[correctAnswer]}`;
+                // Ensure the correct answer is always shown
+                const correctAnswerText = currentQuestion.options[correctAnswer];
+                mcFeedback.textContent = `Incorrect. The correct answer is: ${correctAnswerText}`;
                 mcFeedback.className = "feedback incorrect";
             }
             
             totalQuestionsAnswered++;
             updateScoreDisplay();
             
-            if (totalQuestionsAnswered < multipleChoiceQuestions.length) {
-                setTimeout(() => {
+            // Add a delay before moving to next question to ensure feedback is visible
+            setTimeout(() => {
+                if (totalQuestionsAnswered < multipleChoiceQuestions.length) {
                     mcFeedback.className = "feedback";
                     mcFeedback.textContent = "";
                     showMultipleChoiceQuestion();
-                }, 2000);
-            } else {
-                setTimeout(() => {
+                } else {
                     showFinalResults();
-                }, 2000);
-            }
+                }
+            }, 2000); // Increased delay to 2 seconds to ensure feedback is visible
         } else {
             mcFeedback.textContent = "Please select an option.";
             mcFeedback.className = "feedback";
