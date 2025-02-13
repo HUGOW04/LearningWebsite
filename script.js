@@ -95,7 +95,13 @@ function initializeApp() {
             flashcardElement.classList.remove("flipped");
         }
     }
-
+    function getNextMCQuestion() {
+        if (remainingMCQuestions.length === 0) {
+            remainingMCQuestions = [...multipleChoiceQuestions];
+            shuffleArray(remainingMCQuestions);
+        }
+        return remainingMCQuestions.pop();
+    }
     // Create navigation buttons
     const navContainer = document.createElement('div');
     navContainer.className = 'flashcard-nav';
