@@ -198,5 +198,56 @@
       "UAC"
     ],
     "answer": 0
+  },
+  {
+    "question": "What is a security footprint?",
+    "options": [
+      "The total number of security tools installed on a system",
+      "The digital traces and exposure points that can be exploited by attackers",
+      "A security certificate used to authenticate users",
+      "The amount of storage used by security logs"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following can help reduce a security footprint?",
+    "options": [
+      "Using a VPN to encrypt internet traffic",
+      "Leaving all ports open for easy access",
+      "Sharing company information on social media",
+      "Using outdated software to avoid detection"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Why is closing unnecessary ports important for security?",
+    "options": [
+      "It improves system performance",
+      "It prevents unauthorized access to network services",
+      "It makes internet connections faster",
+      "It allows more users to access the network"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method helps limit public exposure of a system’s security footprint?",
+    "options": [
+      "Regularly updating software and operating systems",
+      "Disabling firewalls for better performance",
+      "Posting IP addresses and system details online",
+      "Using weak passwords to avoid detection"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following security measures helps reduce the attack surface of a network?",
+    "options": [
+      "Enabling only necessary services and closing unused ports",
+      "Running all applications with administrator privileges",
+      "Disabling all security software to improve performance",
+      "Using default credentials for all devices"
+    ],
+    "answer": 0
   }
+  
 ]
