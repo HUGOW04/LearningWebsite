@@ -78,5 +78,10 @@
   {
     "question": "What is WIP?",
     "answer": "Windows Information Protection (WIP) is a security feature in Windows that helps protect against data leaks by separating personal and corporate data on a device. It was originally introduced in Windows 10 as part of Microsoft's enterprise security solutions"
+  },
+  {
+    "question": "What is a security footprint?",
+    "answer": "A security footprint refers to the amount of information and data an organization or individual exposes that could be exploited by attackers. It includes factors such as publicly available information, open ports, vulnerable software, weak authentication, and user behavior. Reducing the security footprint involves minimizing exposure, updating systems, using strong authentication, segmenting networks, and monitoring activity to lower the risk of cyberattacks."
   }
+
 ]
