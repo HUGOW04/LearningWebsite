@@ -66,31 +66,25 @@ function initializeApp() {
     function resetQuestionPools() {
         remainingFlashcards = [...flashcards];
         remainingMCQuestions = [...multipleChoiceQuestions];
-        shuffleArray(remainingFlashcards);
         shuffleArray(remainingMCQuestions);
+        currentFlashcardIndex = 0;
     }
 
-    // Get next random flashcard
+    // Modified to handle navigation
     function getNextFlashcard() {
-        if (remainingFlashcards.length === 0) {
-            remainingFlashcards = [...flashcards];
-            shuffleArray(remainingFlashcards);
-        }
-        return remainingFlashcards.pop();
+        currentFlashcardIndex = (currentFlashcardIndex + 1) % remainingFlashcards.length;
+        return remainingFlashcards[currentFlashcardIndex];
     }
 
-    // Get next random MC question
-    function getNextMCQuestion() {
-        if (remainingMCQuestions.length === 0) {
-            remainingMCQuestions = [...multipleChoiceQuestions];
-            shuffleArray(remainingMCQuestions);
-        }
-        return remainingMCQuestions.pop();
+    // Add previous flashcard function
+    function getPrevFlashcard() {
+        currentFlashcardIndex = (currentFlashcardIndex - 1 + remainingFlashcards.length) % remainingFlashcards.length;
+        return remainingFlashcards[currentFlashcardIndex];
     }
 
-    // Flashcard functionality
+    // Modified to work with current index
     function showFlashcardContent(showAnswer = false) {
-        const currentCard = remainingFlashcards[remainingFlashcards.length - 1];
+        const currentCard = remainingFlashcards[currentFlashcardIndex];
         if (showAnswer) {
             flashcardAnswer.textContent = currentCard.answer;
             flashcardQuestion.textContent = "";
@@ -102,12 +96,37 @@ function initializeApp() {
         }
     }
 
+    // Create navigation buttons
+    const navContainer = document.createElement('div');
+    navContainer.className = 'flashcard-nav';
+    
+    const prevBtn = document.createElement('button');
+    prevBtn.innerHTML = '&lt;';
+    prevBtn.className = 'nav-btn prev-btn';
+    
+    const nextBtn = document.createElement('button');
+    nextBtn.innerHTML = '&gt;';
+    nextBtn.className = 'nav-btn next-btn';
+    
+    // Replace the next card button with navigation buttons
+    nextCardBtn.parentNode.replaceChild(navContainer, nextCardBtn);
+    navContainer.appendChild(prevBtn);
+    navContainer.appendChild(nextBtn);
+
+    // Event Listeners
     flashcardElement.addEventListener("click", () => {
         flashcardElement.classList.toggle("flipped");
         showFlashcardContent(flashcardElement.classList.contains("flipped"));
     });
 
-    nextCardBtn.addEventListener("click", () => {
+    prevBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        getPrevFlashcard();
+        showFlashcardContent(false);
+    });
+
+    nextBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
         getNextFlashcard();
         showFlashcardContent(false);
     });
