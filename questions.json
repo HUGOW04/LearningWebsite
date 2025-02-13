@@ -1,722 +1,202 @@
 [
   {
-    "question": "Which component of the CIA triad ensures that information is only accessible to authorized individuals?",
+    "question": "Which protocol is used for centralized authentication and access management in a directory service?",
     "options": [
-      "Integrity",
-      "Confidentiality",
-      "Availability",
-      "Authentication"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the maximum fine for violating GDPR?",
-    "options": [
-      "€10 million",
-      "€15 million",
-      "€20 million or 4% of global annual revenue, whichever is higher",
-      "€5 million or 2% of global annual revenue, whichever is higher"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Who determines the purpose and means of processing personal data?",
-    "options": [
-      "Data Subject",
-      "Data Controller",
-      "Data Processor",
-      "Data Protection Officer"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which regulation specifically applies to protecting children's privacy online?",
-    "options": [
-      "GDPR",
-      "CCPA",
-      "COPPA",
-      "HIPAA"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the first step in the PDCA cycle?",
-    "options": [
-      "Do",
-      "Check",
-      "Plan",
-      "Act"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which standard specifically focuses on industrial automation and control systems security?",
-    "options": [
-      "ISO 27000",
-      "NIST 800-53",
-      "IEC 62443",
-      "PCI DSS"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is required under the ePrivacy Directive before storing cookies?",
-    "options": [
-      "User notification",
-      "User consent",
-      "Privacy policy",
-      "Data encryption"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which of the following is NOT a main component of HIPAA?",
-    "options": [
-      "Privacy Rule",
-      "Security Rule",
-      "Cookie Rule",
-      "Enforcement Rule"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the primary purpose of pseudonymization?",
-    "options": [
-      "To encrypt data",
-      "To delete data",
-      "To make data unidentifiable without additional information",
-      "To compress data"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What security mechanism ensures parties cannot deny the authenticity of their actions?",
-    "options": [
-      "Authentication",
-      "Authorization",
-      "Non-repudiation",
-      "Encryption"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which law specifically applies to California residents' privacy rights?",
-    "options": [
-      "GDPR",
-      "CCPA",
-      "HIPAA",
-      "ePrivacy Directive"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What must be conducted under GDPR for high-risk data processing activities?",
-    "options": [
-      "Data Protection Impact Assessment",
-      "Security Audit",
-      "Penetration Testing",
-      "Risk Analysis"
+      "LDAP",
+      "RDP",
+      "MFA",
+      "SIEM"
     ],
     "answer": 0
   },
   {
-    "question": "Which standard is specifically designed for payment card security?",
+    "question": "Which security model allows employees to use personal devices for work purposes?",
     "options": [
-      "ISO 27000",
-      "NIST 800-53",
-      "PCI DSS",
-      "IEC 62443"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What does the 'A' in CIA triad stand for?",
-    "options": [
-      "Authentication",
-      "Authorization",
-      "Availability",
-      "Accountability"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "When is a Data Protection Officer (DPO) required?",
-    "options": [
-      "Only for large companies",
-      "For all companies processing personal data",
-      "For regular and systematic monitoring of data subjects on a large scale",
-      "Only for government organizations"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the main objective of information security?",
-    "options": [
-      "To ensure data is always accessible",
-      "To safeguard the confidentiality, integrity, and availability of information",
-      "To adhere to all IT regulations",
-      "To eliminate all cyber threats"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which of the following is NOT an element of information security?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Profitability"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Which ethical principle is most pertinent to information security?",
-    "options": [
-      "Honesty",
-      "Fairness",
-      "Confidentiality",
-      "Transparency"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "How do organizational policies impact information security?",
-    "options": [
-      "They provide guidelines for the proper use of IT resources",
-      "They replace the necessity for legal compliance",
-      "They are optional recommendations for employees",
-      "They only apply to IT personnel"
+      "BYOD",
+      "MDM",
+      "UAC",
+      "GPO"
     ],
     "answer": 0
   },
   {
-    "question": "What is the primary focus of the ISO 27000 series?",
+    "question": "Which risk arises from allowing users to bring their own vulnerable drivers?",
     "options": [
-      "Financial reporting standards",
-      "Environmental management",
-      "Information security management systems",
-      "Quality management"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which of the following is an advantage of implementing ISO 27001?",
-    "options": [
-      "Enhanced marketing opportunities",
-      "Improved information security",
-      "Reduced need for audits",
-      "Increased employee satisfaction"
+      "BYOD",
+      "BYOVD",
+      "MFA",
+      "RDP"
     ],
     "answer": 1
   },
   {
-    "question": "What is the primary aim of GDPR?",
+    "question": "Which system is designed to enforce security policies on mobile devices?",
     "options": [
-      "To regulate financial transactions",
-      "To protect personal data and privacy",
-      "To standardize IT infrastructure",
-      "To promote international trade"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which of the following is a fundamental requirement of GDPR?",
-    "options": [
-      "Data minimization",
-      "Unlimited data retention",
-      "Mandatory data sharing",
-      "No need for data protection officers"
+      "MDM",
+      "MFA",
+      "RDP",
+      "CIS"
     ],
     "answer": 0
   },
   {
-    "question": "Which regulation addresses the security of personal data in electronic communications?",
+    "question": "What is the primary purpose of Windows Information Protection (WIP)?",
     "options": [
-      "HIPAA",
-      "ePrivacy Directive",
-      "SOX",
-      "PCI DSS"
+      "Encrypts hard drives",
+      "Separates personal and corporate data",
+      "Prevents unauthorized applications from running",
+      "Manages user access rights"
     ],
     "answer": 1
   },
   {
-    "question": "What is a common requirement across most data protection regulations?",
+    "question": "Which Windows feature provides full-disk encryption for data protection?",
     "options": [
-      "Regular data backups",
-      "Encryption of sensitive data",
-      "Unlimited data access",
-      "Public data sharing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What does IEC-62443 focus on?",
-    "options": [
-      "Financial auditing",
-      "Industrial automation and control systems security",
-      "Environmental protection",
-      "Quality management"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "NIST 800-53 provides guidelines for what?",
-    "options": [
-      "Financial reporting",
-      "Information security controls",
-      "Environmental management",
-      "Employee benefits"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the initial step in conducting a risk analysis?",
-    "options": [
-      "Implementing security controls",
-      "Identifying assets",
-      "Assessing threats",
-      "Monitoring systems"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which of the following is a common method for evaluating risks?",
-    "options": [
-      "SWOT analysis",
-      "Risk matrix",
-      "Financial audit",
-      "Market analysis"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is a crucial component of an information security policy?",
-    "options": [
-      "Employee salaries",
-      "Incident response procedures",
-      "Marketing strategies",
-      "Product pricing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why is an incident reporting plan essential?",
-    "options": [
-      "To ensure a swift response to security incidents",
-      "To increase sales",
-      "To reduce employee turnover",
-      "To improve customer satisfaction"
+      "BitLocker",
+      "GPO",
+      "WDAC",
+      "UAC"
     ],
     "answer": 0
   },
   {
-    "question": "What is a common legal issue in information security?",
+    "question": "Which organization provides security benchmarks for system hardening?",
     "options": [
-      "Data breaches",
-      "Employee training",
-      "Software updates",
-      "Marketing campaigns"
+      "CIS",
+      "ISO",
+      "NIST",
+      "SP"
     ],
     "answer": 0
   },
   {
-    "question": "Which law primarily governs data protection in the EU?",
+    "question": "Which technology allows remote access and control of a Windows computer?",
     "options": [
-      "HIPAA",
-      "GDPR",
-      "SOX",
-      "CCPA"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the primary function of a firewall in information security?",
-    "options": [
-      "To encrypt data",
-      "To monitor network traffic",
-      "To prevent unauthorized access",
-      "To manage user passwords"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Which of the following is a common method for ensuring data integrity?",
-    "options": [
-      "Data encryption",
-      "Data masking",
-      "Data hashing",
-      "Data replication"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What are the three main goals of information security?",
-    "options": [
-      "Efficiency, Security, and Privacy",
-      "Confidentiality, Integrity, and Availability",
-      "Protection, Detection, and Response",
-      "Authentication, Authorization, and Auditing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which law is a key IT regulation that impacts information security?",
-    "options": [
-      "HIPAA",
-      "Tax Code",
-      "Labor Law",
-      "Environmental Protection Act"
+      "RDP",
+      "MFA",
+      "WDAC",
+      "SIEM"
     ],
     "answer": 0
   },
   {
-    "question": "How does confidentiality differ from integrity in information security?",
+    "question": "Which authentication method requires two or more factors for identity verification?",
     "options": [
-      "Confidentiality is about data backup while integrity is about access control",
-      "Confidentiality ensures authorized access while integrity ensures data accuracy",
-      "Confidentiality is about data encryption while integrity is about data deletion",
-      "Confidentiality focuses on speed while integrity focuses on storage"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why are company policies important for information security?",
-    "options": [
-      "They provide guidelines for IT resource use and ensure compliance",
-      "They replace the need for technical controls",
-      "They eliminate the need for employee training",
-      "They make security breaches impossible"
+      "MFA",
+      "SSO",
+      "LDAP",
+      "UAC"
     ],
     "answer": 0
   },
   {
-    "question": "What is the primary focus of ISO 27001?",
+    "question": "Which technology allows users to log in once and access multiple applications without re-authenticating?",
     "options": [
-      "Financial management",
-      "Quality control",
-      "Information Security Management System (ISMS)",
-      "Human resources management"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What does PDCA stand for in the context of security management?",
-    "options": [
-      "Protect, Detect, Correct, Audit",
-      "Plan, Do, Check, Act",
-      "Process, Document, Control, Assess",
-      "Prepare, Develop, Configure, Analyze"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "How does ISO 27001 certification primarily benefit an organization?",
-    "options": [
-      "Reduces operational costs",
-      "Improves information security and compliance",
-      "Increases sales revenue",
-      "Eliminates need for security staff"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the main objective of GDPR?",
-    "options": [
-      "To increase corporate profits",
-      "To protect personal data and privacy",
-      "To regulate internet speeds",
-      "To standardize software development"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which is a key requirement of GDPR affecting information security?",
-    "options": [
-      "Data maximization",
-      "Data minimization",
-      "Unlimited data storage",
-      "Mandatory data sharing"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which directive focuses on electronic communications security?",
-    "options": [
-      "HIPAA",
-      "ePrivacy Directive",
-      "SOX",
-      "Basel III"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why is encryption important in data protection regulations?",
-    "options": [
-      "To protect data from unauthorized access",
-      "To reduce storage costs",
-      "To increase processing speed",
-      "To improve data visualization"
+      "SSO",
+      "MFA",
+      "LDAP",
+      "RDP"
     ],
     "answer": 0
   },
   {
-    "question": "What does IEC-62443 primarily address?",
+    "question": "Which Windows feature is used to apply security policies across multiple systems in a domain?",
     "options": [
-      "Cloud computing",
-      "Industrial automation and control systems security",
-      "Mobile device management",
-      "Social media security"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the main purpose of NIST 800-53?",
-    "options": [
-      "Financial auditing",
-      "Security control guidelines",
-      "Network configuration",
-      "Software development"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the first step in performing a risk analysis?",
-    "options": [
-      "Implementing controls",
-      "Identifying assets",
-      "Testing security",
-      "Training employees"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Which method is commonly used to assess risks in information security?",
-    "options": [
-      "Market analysis",
-      "Risk matrix",
-      "Customer surveys",
-      "Financial forecasting"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is a key component of an information security policy?",
-    "options": [
-      "Marketing plans",
-      "Incident response procedures",
-      "Sales targets",
-      "Employee benefits"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why is an incident reporting plan crucial?",
-    "options": [
-      "For quick and effective incident response",
-      "To increase profits",
-      "To improve marketing",
-      "To reduce training costs"
+      "GPO",
+      "MDM",
+      "SIEM",
+      "WSUS"
     ],
     "answer": 0
   },
   {
-    "question": "What is a common legal issue in information security?",
+    "question": "Which Windows security feature asks for user confirmation before allowing administrative actions?",
     "options": [
-      "Data breaches",
-      "Employee vacations",
-      "Office maintenance",
-      "Budget planning"
+      "UAC",
+      "WDAC",
+      "MFA",
+      "SP"
     ],
     "answer": 0
   },
   {
-    "question": "Which law governs data protection in the EU?",
+    "question": "Which process involves testing software to ensure quality and security?",
     "options": [
-      "HIPAA",
-      "GDPR",
-      "CCPA",
-      "PIPEDA"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is a key legal challenge in information security?",
-    "options": [
-      "Regulatory compliance and cross-border data transfers",
-      "Employee recruitment",
-      "Hardware procurement",
-      "Software licensing"
+      "QA",
+      "SP",
+      "CIS",
+      "CVSS"
     ],
     "answer": 0
   },
   {
-    "question": "What is the primary focus of IEC 62443?",
+    "question": "Which process involves systematically evaluating a system for security weaknesses?",
     "options": [
-      "Financial system security",
-      "Industrial automation and control systems security",
-      "Healthcare data protection",
-      "Cloud computing security"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Who developed the IEC 62443 standards?",
-    "options": [
-      "International Electrotechnical Commission (IEC)",
-      "International Organization for Standardization (ISO)",
-      "National Institute of Standards and Technology (NIST)",
-      "Payment Card Industry Security Standards Council"
+      "SP",
+      "QA",
+      "BitLocker",
+      "SIEM"
     ],
     "answer": 0
   },
   {
-    "question": "What is the main goal of IEC 62443?",
+    "question": "Which Microsoft service manages and deploys security updates for Windows systems?",
     "options": [
-      "To protect personal data privacy",
-      "To secure industrial control systems from cyber threats",
-      "To regulate financial transactions",
-      "To standardize software development"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "How does IEC 62443 benefit industrial organizations?",
-    "options": [
-      "By reducing operational costs",
-      "By providing a framework for securing industrial automation systems",
-      "By improving marketing opportunities",
-      "By streamlining hiring processes"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What are the key components of IEC 62443?",
-    "options": [
-      "General requirements, policies, and system requirements",
-      "Financial controls and auditing procedures",
-      "Marketing strategies and business plans",
-      "Human resource policies and procedures"
+      "WSUS",
+      "CVE",
+      "SIEM",
+      "BitLocker"
     ],
     "answer": 0
   },
   {
-    "question": "Why is IEC 62443 important for critical infrastructure?",
+    "question": "Which database assigns unique identifiers to known security vulnerabilities?",
     "options": [
-      "It helps reduce energy costs",
-      "It provides guidelines for physical security",
-      "It protects against cyber threats to industrial control systems",
-      "It improves employee productivity"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What industries commonly use IEC 62443 standards?",
-    "options": [
-      "Manufacturing, energy, and chemical processing",
-      "Retail and hospitality",
-      "Entertainment and media",
-      "Real estate and construction"
+      "CVE",
+      "CVSS",
+      "SIEM",
+      "GPO"
     ],
     "answer": 0
   },
   {
-    "question": "What is the role of risk assessment in IEC 62443?",
+    "question": "Which framework is used to assess the severity of vulnerabilities with numerical scores?",
     "options": [
-      "To evaluate financial risks",
-      "To identify and assess security vulnerabilities in industrial systems",
-      "To analyze market competition",
-      "To assess employee performance"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the first step in conducting a risk assessment?",
-    "options": [
-      "Implementing controls",
-      "Identifying assets and systems",
-      "Creating mitigation plans",
-      "Writing the final report"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What follows asset identification in a risk assessment?",
-    "options": [
-      "Threat identification and vulnerability analysis",
-      "Writing the final report",
-      "Implementing controls",
-      "Budget allocation"
+      "CVSS",
+      "CVE",
+      "WSUS",
+      "SP"
     ],
     "answer": 0
   },
   {
-    "question": "How are risks prioritized in a risk assessment?",
+    "question": "Which system aggregates logs from multiple sources to detect security threats?",
     "options": [
-      "By implementation cost only",
-      "By likelihood and impact analysis",
-      "By alphabetical order",
-      "By department size"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why is it important to identify stakeholders in a risk assessment?",
-    "options": [
-      "To assign blame for issues",
-      "To ensure comprehensive input and buy-in",
-      "To distribute marketing materials",
-      "To schedule meetings"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is the purpose of a risk assessment report?",
-    "options": [
-      "To document findings and recommendations",
-      "To assign employee tasks",
-      "To plan company events",
-      "To track attendance"
+      "SIEM",
+      "Log Management",
+      "MDM",
+      "GPO"
     ],
     "answer": 0
   },
   {
-    "question": "How often should risk assessments be conducted?",
+    "question": "Which system is designed to collect, store, and analyze event logs for troubleshooting?",
     "options": [
-      "Once in an organization's lifetime",
-      "Only after incidents occur",
-      "Regularly and after significant changes",
-      "Every ten years"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What role does risk mitigation play in a risk assessment?",
-    "options": [
-      "It's the process of identifying controls to reduce risks",
-      "It's only about accepting risks",
-      "It's about avoiding all assessments",
-      "It's focused on increasing risks"
+      "Log Management",
+      "SIEM",
+      "GPO",
+      "WDAC"
     ],
     "answer": 0
   },
   {
-    "question": "Why is it important to review and update risk assessments?",
+    "question": "Which security feature enforces application control by preventing unauthorized code execution?",
     "options": [
-      "To keep documentation current",
-      "To reflect changes in threats and business environment",
-      "To maintain ISO certification",
-      "To satisfy auditors only"
+      "WDAC",
+      "BitLocker",
+      "SIEM",
+      "UAC"
     ],
-    "answer": 1
-  },
-  {
-    "question": "What is the final step in a risk assessment process?",
-    "options": [
-      "Asset identification",
-      "Threat analysis",
-      "Documentation and reporting",
-      "Budget planning"
-    ],
-    "answer": 2
+    "answer": 0
   }
 ]
