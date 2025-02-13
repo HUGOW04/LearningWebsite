@@ -130,12 +130,12 @@
     "answer": 0
   },
   {
-    "question": "Which process involves systematically evaluating a system for security weaknesses?",
+    "question": "Which process involves applying updates and fixes to software to improve functionality and security?",
     "options": [
       "SP",
+      "Penetration Testing",
       "QA",
-      "BitLocker",
-      "SIEM"
+      "BitLocker"
     ],
     "answer": 0
   },
