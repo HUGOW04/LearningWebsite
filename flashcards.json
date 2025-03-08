@@ -82,6 +82,22 @@
   {
     "question": "What is a security footprint?",
     "answer": "A security footprint refers to the amount of information and data an organization or individual exposes that could be exploited by attackers. It includes factors such as publicly available information, open ports, vulnerable software, weak authentication, and user behavior. Reducing the security footprint involves minimizing exposure, updating systems, using strong authentication, segmenting networks, and monitoring activity to lower the risk of cyberattacks."
+  },
+  {
+    "question": "What is a baseline?",
+    "answer": "A baseline is a reference point that defines what 'normal' behavior or performance looks like in a system or process. By understanding what is typical, it's easier to identify when something is abnormal. For example, if a process normally takes a certain number of seconds to complete, but suddenly takes much longer, it signals that something might be wrong. Having a baseline allows you to track changes over time, identify issues, and compare the current state with previous normal performance to pinpoint what might have changed or caused delays."
+  },
+  {
+    "question": "What is LOL/LOTL (Living off the Land)?",
+    "answer": "Living off the Land (LOL) refers to using the tools that are already available in the operating system, such as built-in utilities in Windows, rather than introducing external malicious software or tools. This is similar to what we try to prevent through hardening. By using these native tools, attackers can avoid detection, as the actions they take may appear to be legitimate system activities."
+  },
+  {
+    "question": "What is the difference between LDAP and LDAPS?",
+    "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for accessing and managing directory information, typically used for authentication and directory services. LDAPS (LDAP over SSL) is the secure version of LDAP, where the communication between the client and the server is encrypted using SSL/TLS. The main difference is that LDAPS ensures the data being transmitted is secure by encrypting it, whereas LDAP sends data in plain text."
   }
-
+  ,
+  {
+    "question": "What is the thee shells?",
+    "answer": "CMD,POWERSHELL,NETSH"
+  }
 ]
