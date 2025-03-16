@@ -94,10 +94,21 @@
   {
     "question": "What is the difference between LDAP and LDAPS?",
     "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for accessing and managing directory information, typically used for authentication and directory services. LDAPS (LDAP over SSL) is the secure version of LDAP, where the communication between the client and the server is encrypted using SSL/TLS. The main difference is that LDAPS ensures the data being transmitted is secure by encrypting it, whereas LDAP sends data in plain text."
-  }
-  ,
+  },
   {
-    "question": "What is the thee shells?",
+    "question": "What is the three shells?",
     "answer": "CMD,POWERSHELL,NETSH"
+  },
+  {
+    "question": "What is the ncpa.cpl?",
+    "answer": "The `ncpa.cpl` is a command used in Windows to open the Network Connections control panel. This panel allows users to manage and configure their network adapters and settings. You can use `ncpa.cpl` to view all network interfaces (Ethernet, Wi-Fi, etc.), modify network settings such as IP configuration (IPv4 and IPv6), enable or disable network adapters, and configure properties like DNS settings, proxy settings, and other network-related options."
+  },
+  {
+    "question": "What is the lusrmgr.msc?",
+    "answer": "The `lusrmgr.msc` is a command used in Windows to open the Local Users and Groups management console. This tool allows users to manage and configure local user accounts and groups. You can use `lusrmgr.msc` to create, delete, and modify local user accounts, manage group memberships, and set various account properties such as passwords, account expiration, and more."
+  },
+  {
+    "question": "What is gpedit.msc?",
+    "answer": "The `gpedit.msc` is a command used in Windows to open the Local Group Policy Editor. This tool allows users to manage and configure group policies on a local computer. It provides advanced settings for system administration, security policies, and user permissions, enabling users to control various aspects of Windows behavior without modifying the registry manually."
   }
 ]
