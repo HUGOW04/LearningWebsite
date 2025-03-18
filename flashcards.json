@@ -72,8 +72,8 @@
     "answer": "IDA stands for Identity and Access Management. It refers to a framework used to manage and secure user identities and control access to resources within an organization. It ensures that only authorized individuals can access systems and data based on their roles and permissions."
   },
   {
-    "question": "What is LDAP?",
-    "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for accessing and managing directory services, such as storing and retrieving information about users, organizations, and resources. It is widely used for authentication and managing user information across various applications and services. However, unlike Active Directory (AD), LDAP does not include advanced features like Group Policy Objects (GPO) for managing users and group policies across a network. Instead, it focuses on user storage and retrieval, making it a lightweight solution for directory management without the comprehensive management features offered by AD."
+  "question": "What is LDAP?",
+  "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for reading, writing, and authenticating user and device information within directory services. It allows applications to retrieve and modify user credentials, group memberships, and access control data. LDAP is commonly used for centralized authentication and identity management but does not include advanced policy enforcement mechanisms like Group Policy Objects (GPO) in Active Directory. Instead, it primarily provides a structured way to store and access directory-based information."
   },
   {
     "question": "What is WIP?",
