@@ -1,114 +1,122 @@
 [
   {
-    "question": "What is SIEM?",
-    "answer": "SIEM, or Security Information and Event Management, is a system that collects, analyzes, and manages security-related data from a company's IT infrastructure. It helps detect threats, monitor activities, generate alerts for suspicious events, and supports compliance by creating reports for regulatory requirements."
+  "question": "What is the difference between Information Security, IT Security, and Cybersecurity?",
+  "answer": "Information Security protects all forms of information, whether digital or physical. IT Security focuses on protecting IT systems and networks. Cybersecurity specifically defends computers, networks, and data from attacks originating from the internet."
   },
   {
-    "question": "What is WDAC?",
-    "answer": "WDAC, or Windows Defender Application Control, is a security feature in Windows that restricts which applications can run on a system. It helps protect against malware by ensuring only trusted and signed apps are allowed to execute."
+  "question": "How does fraud differ from a network attack?",
+  "answer": "Fraud involves deception to gain unauthorized benefits, often targeting people or financial systems. A network attack targets computer networks to disrupt, damage, or steal data from systems."
   },
   {
-    "question": "What is Log Management?",
-    "answer": "Log Management involves the collection, storage, and analysis of logs from various systems and applications in an IT environment. It helps track user activities, system events, and security incidents, providing valuable insights for troubleshooting, auditing, and security monitoring."
+  "question": "Give an example of how a network attack can lead to fraud.",
+  "answer": "An attacker might use a phishing attack (a type of network attack) to steal login credentials, then use those credentials to commit fraud such as unauthorized transactions or identity theft."
   },
   {
-    "question": "What is CVSS?",
-    "answer": "CVSS, or Common Vulnerability Scoring System, is a standardized framework for rating the severity of security vulnerabilities. It provides a score from 0 to 10, with 10 being the most critical, to help organizations prioritize vulnerability fixes."
+  "question": "Explain the CIA Triad in your own words.",
+  "answer": "The CIA Triad stands for Confidentiality, Integrity, and Availability. It means keeping data private (Confidentiality), accurate and unchanged (Integrity), and accessible when needed (Availability). These are the core principles of information security."
   },
   {
-    "question": "What is CVE?",
-    "answer": "CVE stands for Common Vulnerabilities and Exposures. It is a publicly disclosed list of security vulnerabilities in software or hardware. Each CVE entry is assigned a unique identifier to help organizations track and fix vulnerabilities in their systems."
+  "question": "Why is data encryption important for confidentiality?",
+  "answer": "Data encryption transforms information into a coded format that only authorized users can read, protecting sensitive data from unauthorized access and ensuring confidentiality."
   },
   {
-    "question": "What is WSUS?",
-    "answer": "WSUS, or Windows Server Update Services, is a Microsoft tool that enables administrators to manage and deploy updates for Microsoft products across a network. It helps ensure systems are up to date with security patches and software updates."
+  "question": "What are the three states of data, and how do they affect security?",
+  "answer": "The three states of data are: Data at Rest (stored data), Data in Transit (data being transmitted), and Data in Use (data currently processed). Each state requires protection to prevent unauthorized access, modification, or loss."
   },
   {
-    "question": "What is SP?",
-    "answer": "SP stands for Service Pack. It is a collection of updates, fixes, and enhancements packaged together for a specific software or operating system. Service Packs are released to address security issues, bugs, and performance improvements."
+  "question": "What security measures can help protect data in motion? Network Attacks & Threats",
+  "answer": "Security measures like encryption (e.g., TLS/SSL), secure VPNs, and strong authentication protect data in motion by preventing interception, tampering, and unauthorized access during transmission."
   },
   {
-    "question": "What is QA?",
-    "answer": "QA stands for Quality Assurance. It refers to the process of testing and verifying software or systems to ensure they meet specified requirements and function as intended, reducing the risk of defects and improving quality."
+  "question": "What is social engineering, and why is it dangerous?",
+  "answer": "Social engineering is a manipulation technique where attackers trick people into revealing confidential information or performing actions that compromise security. It is dangerous because it exploits human trust rather than technical vulnerabilities."
   },
   {
-    "question": "What is MFA?",
-    "answer": "MFA, or Multi-Factor Authentication, is a security mechanism that requires users to provide multiple forms of identification (such as a password and a fingerprint) before gaining access to a system or service."
+  "question": "Describe how a phishing attack works.",
+  "answer": "A phishing attack tricks victims into clicking malicious links or providing sensitive information by pretending to be a trustworthy source, often via email or fake websites."
   },
   {
-    "question": "What is RDP?",
-    "answer": "RDP, or Remote Desktop Protocol, is a protocol developed by Microsoft that allows users to connect to and control a remote computer over a network. It is commonly used for remote access to Windows systems."
+  "question": "What makes spear phishing different from normal phishing?",
+  "answer": "Spear phishing targets specific individuals or organizations with personalized messages, making it more convincing and harder to detect than general phishing attacks."
   },
   {
-    "question": "What is CIS?",
-    "answer": "CIS stands for Center for Internet Security. It is a nonprofit organization that provides best practices for securing IT systems and data. CIS publishes a set of security benchmarks, known as CIS Controls, which help organizations improve their cybersecurity posture."
+    "question": "Explain the quid pro quo attack in simple terms.",
+    "answer": "A quid pro quo attack involves an attacker offering a service or benefit in exchange for information or access, tricking victims into cooperating."
   },
   {
-    "question": "What is UAC?",
-    "answer": "UAC, or User Account Control, is a security feature in Windows that prompts users for permission or an administrator password before allowing actions that could affect the system's security, such as installing software or changing system settings."
+    "question": "How does pretexting trick people into giving up sensitive information?",
+    "answer": "Pretexting involves creating a fake scenario or identity to gain trust and convince people to share confidential information."
   },
   {
-    "question": "What is GPO?",
-    "answer": "GPO, or Group Policy Object, is a feature in Microsoft Windows that enables administrators to manage and configure settings for users and computers within Active Directory. It controls security settings, software installation, system configurations, and user permissions across the network."
+    "question": "What is privilege escalation, and how can it be prevented?",
+    "answer": "Privilege escalation is when an attacker gains higher access rights than allowed. It can be prevented by applying patches, using least privilege, and monitoring systems."
   },
   {
-    "question": "What is BitLocker?",
-    "answer": "BitLocker is a full disk encryption feature in Windows that helps protect data by encrypting the entire hard drive. It ensures that even if the device is lost or stolen, unauthorized users cannot access the data without the proper decryption key."
+    "question": "Explain the difference between DoS and DDoS attacks.",
+    "answer": "A DoS attack comes from one source to overwhelm a target, while a DDoS attack uses many compromised systems to flood the target, making it harder to block."
   },
   {
-    "question": "What is MDM?",
-    "answer": "MDM, or Mobile Device Management, refers to the administration of mobile devices like smartphones, tablets, and laptops in an organization. It allows IT administrators to configure, manage, and secure these devices remotely."
+    "question": "Why are Advanced Persistent Threats (APT) difficult to detect?",
+    "answer": "APTs are stealthy, long-term attacks by skilled attackers who carefully avoid detection and maintain access over time."
   },
   {
-    "question": "What is BYOD?",
-    "answer": "BYOD stands for 'Bring Your Own Device'. It's a policy that allows employees to use their personal devices (like smartphones, laptops, or tablets) to access company resources and work applications, reducing the need for company-provided devices."
+    "question": "What are the four components of IAAA (Identification, Authentication, Authorization, and Accountability)?",
+    "answer": "Identification is claiming an identity; Authentication verifies it; Authorization grants access rights; Accountability tracks user actions."
   },
   {
-    "question": "What is BYOVD?",
-    "answer": "BYOVD, or Bring Your Own Vulnerable Driver, refers to the risk posed by allowing employees to use drivers on their personal devices in the workplace. These drivers may not be as secure as those used by company-managed devices, potentially introducing vulnerabilities."
+    "question": "Give an example of how multi-factor authentication (MFA) improves security.",
+    "answer": "MFA requires multiple proofs, like a password plus a fingerprint, making it much harder for attackers to gain access."
   },
   {
-    "question": "What is IDA?",
-    "answer": "IDA stands for Identity and Access Management. It refers to a framework used to manage and secure user identities and control access to resources within an organization. It ensures that only authorized individuals can access systems and data based on their roles and permissions."
+    "question": "What are the three types of authentication? Provide an example for each.",
+    "answer": "Knowledge-based (password), possession-based (security token), and inherence-based (fingerprint)."
   },
   {
-  "question": "What is LDAP?",
-  "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for reading, writing, and authenticating user and device information within directory services. It allows applications to retrieve and modify user credentials, group memberships, and access control data. LDAP is commonly used for centralized authentication and identity management but does not include advanced policy enforcement mechanisms like Group Policy Objects (GPO) in Active Directory. Instead, it primarily provides a structured way to store and access directory-based information."
+    "question": "Why are strong passwords not enough for secure authentication?",
+    "answer": "Passwords can be stolen, guessed, or reused; additional factors reduce the risk of unauthorized access."
   },
   {
-    "question": "What is WIP?",
-    "answer": "Windows Information Protection (WIP) is a security feature in Windows that helps protect against data leaks by separating personal and corporate data on a device. It was originally introduced in Windows 10 as part of Microsoft's enterprise security solutions"
+    "question": "What is the least privilege principle, and why is it important?",
+    "answer": "It means users get only the access they need to perform tasks, limiting damage if accounts are compromised."
   },
   {
-    "question": "What is a security footprint?",
-    "answer": "A security footprint refers to the amount of information and data an organization or individual exposes that could be exploited by attackers. It includes factors such as publicly available information, open ports, vulnerable software, weak authentication, and user behavior. Reducing the security footprint involves minimizing exposure, updating systems, using strong authentication, segmenting networks, and monitoring activity to lower the risk of cyberattacks."
+    "question": "Explain the difference between DAC, MAC, and RBAC in access control.",
+    "answer": "DAC lets owners decide access; MAC is system-enforced with strict policies; RBAC assigns access based on user roles."
   },
   {
-    "question": "What is a baseline?",
-    "answer": "A baseline is a reference point that defines what 'normal' behavior or performance looks like in a system or process. By understanding what is typical, it's easier to identify when something is abnormal. For example, if a process normally takes a certain number of seconds to complete, but suddenly takes much longer, it signals that something might be wrong. Having a baseline allows you to track changes over time, identify issues, and compare the current state with previous normal performance to pinpoint what might have changed or caused delays."
+    "question": "How does ABAC (Attribute-Based Access Control) work?",
+    "answer": "ABAC grants access based on attributes like user role, time, location, or device used."
   },
   {
-    "question": "What is LOL/LOTL (Living off the Land)?",
-    "answer": "Living off the Land (LOL) refers to using the tools that are already available in the operating system, such as built-in utilities in Windows, rather than introducing external malicious software or tools. This is similar to what we try to prevent through hardening. By using these native tools, attackers can avoid detection, as the actions they take may appear to be legitimate system activities."
+    "question": "What is non-repudiation, and how does it improve security?",
+    "answer": "Non-repudiation ensures a user cannot deny their actions, often by using digital signatures or logs."
   },
   {
-    "question": "What is the difference between LDAP and LDAPS?",
-    "answer": "LDAP (Lightweight Directory Access Protocol) is a protocol used for accessing and managing directory information, typically used for authentication and directory services. LDAPS (LDAP over SSL) is the secure version of LDAP, where the communication between the client and the server is encrypted using SSL/TLS. The main difference is that LDAPS ensures the data being transmitted is secure by encrypting it, whereas LDAP sends data in plain text."
+    "question": "What does SIEM stand for, and why is it useful in cybersecurity?",
+    "answer": "SIEM means Security Information and Event Management; it collects and analyzes security data to detect threats."
   },
   {
-    "question": "What is the three shells?",
-    "answer": "CMD,POWERSHELL,NETSH"
+    "question": "How do security teams use SIEM tools to detect attacks?",
+    "answer": "They monitor logs and alerts from multiple sources to identify suspicious behavior and respond quickly."
   },
   {
-    "question": "What is the ncpa.cpl?",
-    "answer": "The `ncpa.cpl` is a command used in Windows to open the Network Connections control panel. This panel allows users to manage and configure their network adapters and settings. You can use `ncpa.cpl` to view all network interfaces (Ethernet, Wi-Fi, etc.), modify network settings such as IP configuration (IPv4 and IPv6), enable or disable network adapters, and configure properties like DNS settings, proxy settings, and other network-related options."
+    "question": "What is an audit trail, and how does it help with accountability?",
+    "answer": "An audit trail records actions in systems, helping trace who did what and when."
   },
   {
-    "question": "What is the lusrmgr.msc?",
-    "answer": "The `lusrmgr.msc` is a command used in Windows to open the Local Users and Groups management console. This tool allows users to manage and configure local user accounts and groups. You can use `lusrmgr.msc` to create, delete, and modify local user accounts, manage group memberships, and set various account properties such as passwords, account expiration, and more."
+    "question": "Why is logging important in network security?",
+    "answer": "Logging helps detect, investigate, and prevent security incidents by keeping records of activities."
   },
   {
-    "question": "What is gpedit.msc?",
-    "answer": "The `gpedit.msc` is a command used in Windows to open the Local Group Policy Editor. This tool allows users to manage and configure group policies on a local computer. It provides advanced settings for system administration, security policies, and user permissions, enabling users to control various aspects of Windows behavior without modifying the registry manually."
+    "question": "What should an organization do after detecting a security breach?",
+    "answer": "They should contain the breach, analyze the cause, fix vulnerabilities, notify affected parties, and improve defenses."
+  },
+  {
+    "question": "Imagine you are a network administrator. What are three things you would do to secure a company network?",
+    "answer": "Implement firewalls and IDS/IPS, enforce strong access controls, and regularly update and patch systems."
+  },
+  {
+    "question": "If you received an email asking for your login details, how would you check if it's a phishing attempt?",
+    "answer": "Check the sender's email, look for spelling errors, avoid clicking links, and verify requests through official channels."
   }
 ]
