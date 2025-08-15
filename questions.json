@@ -1,253 +1,302 @@
 [
   {
-    "question": "Which protocol is used for centralized authentication and access management in a directory service?",
+  "question": "What is the difference between Information Security, IT Security, and Cybersecurity?",
+  "options": [
+    "Information Security protects only digital data, IT Security protects all forms of information, and Cybersecurity protects against physical theft.",
+    "Information Security protects all forms of information, IT Security focuses on IT systems and networks, and Cybersecurity defends against internet-based attacks.",
+    "Information Security is the same as Cybersecurity, but IT Security is unrelated.",
+    "IT Security includes all aspects of security, while Cybersecurity only involves passwords."
+  ],
+  "answer": 1
+  },
+  {
+    "question": "How does fraud differ from a network attack?",
     "options": [
-      "LDAP",
-      "RDP",
-      "MFA",
-      "SIEM"
+      "Fraud uses deception for personal gain, while a network attack targets computer systems to disrupt or steal data.",
+      "Fraud only affects computers, while network attacks only affect humans.",
+      "Fraud is always legal, but network attacks are not.",
+      "Network attacks always use phishing, but fraud never does."
     ],
     "answer": 0
   },
   {
-    "question": "Which security model allows employees to use personal devices for work purposes?",
+    "question": "Give an example of how a network attack can lead to fraud.",
     "options": [
-      "BYOD",
-      "MDM",
-      "UAC",
-      "GPO"
+      "Resetting a forgotten password.",
+      "Installing an antivirus.",
+      "Using phishing to steal credentials and commit identity theft.",
+      "Sending a company newsletter."
     ],
-    "answer": 0
+    "answer": 2
   },
   {
-    "question": "Which risk arises from allowing users to bring their own vulnerable drivers?",
+    "question": "Explain the CIA Triad in your own words.",
     "options": [
-      "BYOD",
-      "BYOVD",
-      "MFA",
-      "RDP"
+      "Control, Isolation, Accessibility — controlling users, isolating data, ensuring easy access.",
+      "Cybersecurity, Integrity, Access — defending systems, ensuring accuracy, controlling entry.",
+      "Confidentiality, Identification, Authentication — privacy, proving identity, verifying users.",
+      "Confidentiality, Integrity, Availability — keeping data private, accurate, and accessible."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why is data encryption important for confidentiality?",
+    "options": [
+      "It stores data in plaintext for faster access.",
+      "It turns data into a coded format only authorized users can read.",
+      "It removes data from the internet.",
+      "It makes data impossible to transmit."
     ],
     "answer": 1
   },
   {
-    "question": "Which system is designed to enforce security policies on mobile devices?",
+    "question": "What are the three states of data, and how do they affect security?",
     "options": [
-      "MDM",
-      "MFA",
-      "RDP",
-      "CIS"
+      "Encrypted, decrypted, archived — all require the same protection.",
+      "Old, new, updated — security changes depending on age.",
+      "Stored, printed, deleted — each has no effect on security.",
+      "At rest, in transit, in use — each requires specific protection against threats."
     ],
-    "answer": 0
+    "answer": 3
   },
   {
-    "question": "What is the primary purpose of Windows Information Protection (WIP)?",
+    "question": "What security measures can help protect data in motion?",
     "options": [
-      "Encrypts hard drives",
-      "Separates personal and corporate data",
-      "Prevents unauthorized applications from running",
-      "Manages user access rights"
+      "Disabling antivirus software.",
+      "Deleting old files.",
+      "Using TLS/SSL encryption, secure VPNs, and strong authentication.",
+      "Using unencrypted public Wi-Fi."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is social engineering, and why is it dangerous?",
+    "options": [
+      "It is a method for building secure systems.",
+      "It encrypts confidential data.",
+      "It uses computer viruses to attack networks.",
+      "It manipulates people into revealing information, exploiting human trust."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Describe how a phishing attack works.",
+    "options": [
+      "It only attacks wireless networks.",
+      "It uses fake messages or sites to trick victims into giving sensitive information.",
+      "It physically steals devices from a company.",
+      "It infects computers through USB drives."
     ],
     "answer": 1
   },
   {
-    "question": "Which Windows feature provides full-disk encryption for data protection?",
+    "question": "What makes spear phishing different from normal phishing?",
     "options": [
-      "BitLocker",
-      "GPO",
-      "WDAC",
-      "UAC"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which organization provides security benchmarks for system hardening?",
-    "options": [
-      "CIS",
-      "ISO",
-      "NIST",
-      "SP"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which technology allows remote access and control of a Windows computer?",
-    "options": [
-      "RDP",
-      "MFA",
-      "WDAC",
-      "SIEM"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which authentication method requires two or more factors for identity verification?",
-    "options": [
-      "MFA",
-      "SSO",
-      "LDAP",
-      "UAC"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which technology allows users to log in once and access multiple applications without re-authenticating?",
-    "options": [
-      "SSO",
-      "MFA",
-      "LDAP",
-      "RDP"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which Windows feature is used to apply security policies across multiple systems in a domain?",
-    "options": [
-      "GPO",
-      "MDM",
-      "SIEM",
-      "WSUS"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which Windows security feature asks for user confirmation before allowing administrative actions?",
-    "options": [
-      "UAC",
-      "WDAC",
-      "MFA",
-      "SP"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which process involves testing software to ensure quality and security?",
-    "options": [
-      "QA",
-      "SP",
-      "CIS",
-      "CVSS"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which process involves applying updates and fixes to software to improve functionality and security?",
-    "options": [
-      "SP",
-      "Penetration Testing",
-      "QA",
-      "BitLocker"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which Microsoft service manages and deploys security updates for Windows systems?",
-    "options": [
-      "WSUS",
-      "CVE",
-      "SIEM",
-      "BitLocker"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which database assigns unique identifiers to known security vulnerabilities?",
-    "options": [
-      "CVE",
-      "CVSS",
-      "SIEM",
-      "GPO"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which framework is used to assess the severity of vulnerabilities with numerical scores?",
-    "options": [
-      "CVSS",
-      "CVE",
-      "WSUS",
-      "SP"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which system aggregates logs from multiple sources to detect security threats?",
-    "options": [
-      "SIEM",
-      "Log Management",
-      "MDM",
-      "GPO"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which system is designed to collect, store, and analyze event logs for troubleshooting?",
-    "options": [
-      "Log Management",
-      "SIEM",
-      "GPO",
-      "WDAC"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Which security feature enforces application control by preventing unauthorized code execution?",
-    "options": [
-      "WDAC",
-      "BitLocker",
-      "SIEM",
-      "UAC"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is a security footprint?",
-    "options": [
-      "The total number of security tools installed on a system",
-      "The digital traces and exposure points that can be exploited by attackers",
-      "A security certificate used to authenticate users",
-      "The amount of storage used by security logs"
+      "It is completely automated and random.",
+      "It targets specific individuals with personalized messages.",
+      "It uses fake antivirus programs.",
+      "It targets everyone equally."
     ],
     "answer": 1
   },
   {
-    "question": "Which of the following can help reduce a security footprint?",
+    "question": "Explain the quid pro quo attack in simple terms.",
     "options": [
-      "Using a VPN to encrypt internet traffic",
-      "Leaving all ports open for easy access",
-      "Sharing company information on social media",
-      "Using outdated software to avoid detection"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "Why is closing unnecessary ports important for security?",
-    "options": [
-      "It improves system performance",
-      "It prevents unauthorized access to network services",
-      "It makes internet connections faster",
-      "It allows more users to access the network"
+      "Encrypting files and demanding ransom.",
+      "Offering a service or benefit in exchange for information or access.",
+      "Overloading a network with traffic.",
+      "Stealing passwords directly from servers."
     ],
     "answer": 1
   },
   {
-    "question": "Which method helps limit public exposure of a system’s security footprint?",
+    "question": "How does pretexting trick people into giving up sensitive information?",
     "options": [
-      "Regularly updating software and operating systems",
-      "Disabling firewalls for better performance",
-      "Posting IP addresses and system details online",
-      "Using weak passwords to avoid detection"
+      "By encrypting all stored data.",
+      "By installing malicious drivers.",
+      "By creating a fake scenario or identity to gain trust.",
+      "By bribing employees directly."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is privilege escalation, and how can it be prevented?",
+    "options": [
+      "Using administrator passwords for guest accounts.",
+      "Reducing access rights for employees; prevented with firewalls.",
+      "Gaining more internet bandwidth; prevented with faster routers.",
+      "Gaining higher access rights than allowed; prevented with patches, least privilege, and monitoring."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Explain the difference between DoS and DDoS attacks.",
+    "options": [
+      "DoS is legal, DDoS is illegal.",
+      "DDoS only affects websites, DoS affects hardware.",
+      "DoS requires internet access, DDoS does not.",
+      "DoS uses one source, DDoS uses many compromised systems."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Why are Advanced Persistent Threats (APT) difficult to detect?",
+    "options": [
+      "They are always publicly announced.",
+      "They are stealthy, long-term attacks designed to avoid detection.",
+      "They are random and short-lived.",
+      "They only happen during business hours."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What are the four components of IAAA?",
+    "options": [
+      "Integrity, Access, Accuracy, Authorization.",
+      "Identification, Authentication, Authorization, Accountability.",
+      "Identification, Access, Availability, Accountability.",
+      "Input, Analysis, Authorization, Audit."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Give an example of how multi-factor authentication improves security.",
+    "options": [
+      "It uses a single factor multiple times.",
+      "It uses multiple proofs like a password and fingerprint, making access harder for attackers.",
+      "It disables encryption.",
+      "It only requires a long password."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What are the three types of authentication?",
+    "options": [
+      "Digital, analog, hybrid.",
+      "Knowledge (password), possession (token), inherence (fingerprint).",
+      "User, admin, guest.",
+      "Text, image, voice."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Why are strong passwords not enough for secure authentication?",
+    "options": [
+      "Strong passwords are always unbreakable.",
+      "Passwords make systems slower.",
+      "Passwords can be stolen or guessed; extra factors reduce the risk.",
+      "Hackers cannot bypass passwords."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the least privilege principle, and why is it important?",
+    "options": [
+      "It locks all user accounts permanently.",
+      "It removes passwords entirely.",
+      "Users get only the access they need, limiting damage from compromised accounts.",
+      "All users have admin rights for convenience."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Explain the difference between DAC, MAC, and RBAC.",
+    "options": [
+      "DAC lets owners decide access; MAC enforces strict system policies; RBAC uses roles.",
+      "DAC and MAC are obsolete, only RBAC is used.",
+      "All three are identical security methods.",
+      "DAC uses passwords, MAC uses keys, RBAC uses biometrics."
     ],
     "answer": 0
   },
   {
-    "question": "Which of the following security measures helps reduce the attack surface of a network?",
+    "question": "How does ABAC work?",
     "options": [
-      "Enabling only necessary services and closing unused ports",
-      "Running all applications with administrator privileges",
-      "Disabling all security software to improve performance",
-      "Using default credentials for all devices"
+      "It grants access based on attributes like role, time, or device.",
+      "It blocks all access by default.",
+      "It only works on wireless networks.",
+      "It uses a fixed password list."
     ],
     "answer": 0
+  },
+  {
+    "question": "What is non-repudiation, and how does it improve security?",
+    "options": [
+      "It ensures a user cannot deny their actions, often using digital signatures or logs.",
+      "It blocks all unverified users.",
+      "It removes accountability.",
+      "It encrypts all passwords automatically."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does SIEM stand for?",
+    "options": [
+      "Security Intelligence for Encrypted Messaging.",
+      "Security Information and Event Management.",
+      "System Integrity and Event Monitoring.",
+      "Secure Internet Email Management."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do security teams use SIEM tools to detect attacks?",
+    "options": [
+      "By encrypting every log file permanently.",
+      "By monitoring logs and alerts from multiple sources for suspicious behavior.",
+      "By scanning only personal emails.",
+      "By blocking all external communication."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is an audit trail, and how does it help with accountability?",
+    "options": [
+      "A tool for deleting old files.",
+      "A way to encrypt system logs.",
+      "A record of actions in systems, showing who did what and when.",
+      "A method for tracking passwords."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Why is logging important in network security?",
+    "options": [
+      "It hides all activities from users.",
+      "It prevents password reuse.",
+      "It makes systems faster.",
+      "It helps detect and investigate security incidents."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What should an organization do after detecting a security breach?",
+    "options": [
+      "Only delete infected files.",
+      "Ignore it if no money was stolen.",
+      "Contain it, find the cause, fix vulnerabilities, notify affected parties, and improve defenses.",
+      "Permanently shut down the network."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "As a network administrator, what are three things to secure a company network?",
+    "options": [
+      "Rely on antivirus alone.",
+      "Use firewalls/IDS-IPS, strong access controls, and regular updates.",
+      "Install only wireless access points.",
+      "Give all employees admin access."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How would you check if an email asking for login details is phishing?",
+    "options": [
+      "Delete the email immediately without checking.",
+      "Verify sender, check spelling, avoid links, and confirm via official channels.",
+      "Reply with fake credentials.",
+      "Click all links to see what happens."
+    ],
+    "answer": 1
   }
-  
 ]
