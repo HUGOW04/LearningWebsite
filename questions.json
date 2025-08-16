@@ -1,302 +1,302 @@
 [
   {
-  "question": "What is the difference between Information Security, IT Security, and Cybersecurity?",
-  "options": [
-    "Information Security protects only digital data, IT Security protects all forms of information, and Cybersecurity protects against physical theft.",
-    "Information Security protects all forms of information, IT Security focuses on IT systems and networks, and Cybersecurity defends against internet-based attacks.",
-    "Information Security is the same as Cybersecurity, but IT Security is unrelated.",
-    "IT Security includes all aspects of security, while Cybersecurity only involves passwords."
-  ],
-  "answer": 1
+    "question": "Vad är skillnaden mellan informationssäkerhet, IT-säkerhet och cybersäkerhet?",
+    "options": [
+      "Informationssäkerhet skyddar endast digital information",
+      "IT-säkerhet skyddar endast datorer",
+      "Cybersäkerhet skyddar mot attacker från internet",
+      "Alla ovanstående är fel"
+    ],
+    "answer": 2
   },
   {
-    "question": "How does fraud differ from a network attack?",
+    "question": "Hur skiljer sig bedrägeri från en nätverksattack?",
     "options": [
-      "Fraud uses deception for personal gain, while a network attack targets computer systems to disrupt or steal data.",
-      "Fraud only affects computers, while network attacks only affect humans.",
-      "Fraud is always legal, but network attacks are not.",
-      "Network attacks always use phishing, but fraud never does."
+      "Bedrägeri riktar sig mot människor, nätverksattack mot datorer",
+      "Båda är samma sak",
+      "Bedrägeri är alltid fysisk",
+      "Nätverksattack påverkar bara nätverkshårdvara"
     ],
     "answer": 0
   },
   {
-    "question": "Give an example of how a network attack can lead to fraud.",
+    "question": "Kan du ge ett exempel på hur en nätverksattack kan leda till bedrägeri?",
     "options": [
-      "Resetting a forgotten password.",
-      "Installing an antivirus.",
-      "Using phishing to steal credentials and commit identity theft.",
-      "Sending a company newsletter."
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Explain the CIA Triad in your own words.",
-    "options": [
-      "Control, Isolation, Accessibility — controlling users, isolating data, ensuring easy access.",
-      "Cybersecurity, Integrity, Access — defending systems, ensuring accuracy, controlling entry.",
-      "Confidentiality, Identification, Authentication — privacy, proving identity, verifying users.",
-      "Confidentiality, Integrity, Availability — keeping data private, accurate, and accessible."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Why is data encryption important for confidentiality?",
-    "options": [
-      "It stores data in plaintext for faster access.",
-      "It turns data into a coded format only authorized users can read.",
-      "It removes data from the internet.",
-      "It makes data impossible to transmit."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What are the three states of data, and how do they affect security?",
-    "options": [
-      "Encrypted, decrypted, archived — all require the same protection.",
-      "Old, new, updated — security changes depending on age.",
-      "Stored, printed, deleted — each has no effect on security.",
-      "At rest, in transit, in use — each requires specific protection against threats."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "What security measures can help protect data in motion?",
-    "options": [
-      "Disabling antivirus software.",
-      "Deleting old files.",
-      "Using TLS/SSL encryption, secure VPNs, and strong authentication.",
-      "Using unencrypted public Wi-Fi."
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is social engineering, and why is it dangerous?",
-    "options": [
-      "It is a method for building secure systems.",
-      "It encrypts confidential data.",
-      "It uses computer viruses to attack networks.",
-      "It manipulates people into revealing information, exploiting human trust."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Describe how a phishing attack works.",
-    "options": [
-      "It only attacks wireless networks.",
-      "It uses fake messages or sites to trick victims into giving sensitive information.",
-      "It physically steals devices from a company.",
-      "It infects computers through USB drives."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What makes spear phishing different from normal phishing?",
-    "options": [
-      "It is completely automated and random.",
-      "It targets specific individuals with personalized messages.",
-      "It uses fake antivirus programs.",
-      "It targets everyone equally."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Explain the quid pro quo attack in simple terms.",
-    "options": [
-      "Encrypting files and demanding ransom.",
-      "Offering a service or benefit in exchange for information or access.",
-      "Overloading a network with traffic.",
-      "Stealing passwords directly from servers."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "How does pretexting trick people into giving up sensitive information?",
-    "options": [
-      "By encrypting all stored data.",
-      "By installing malicious drivers.",
-      "By creating a fake scenario or identity to gain trust.",
-      "By bribing employees directly."
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is privilege escalation, and how can it be prevented?",
-    "options": [
-      "Using administrator passwords for guest accounts.",
-      "Reducing access rights for employees; prevented with firewalls.",
-      "Gaining more internet bandwidth; prevented with faster routers.",
-      "Gaining higher access rights than allowed; prevented with patches, least privilege, and monitoring."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Explain the difference between DoS and DDoS attacks.",
-    "options": [
-      "DoS is legal, DDoS is illegal.",
-      "DDoS only affects websites, DoS affects hardware.",
-      "DoS requires internet access, DDoS does not.",
-      "DoS uses one source, DDoS uses many compromised systems."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Why are Advanced Persistent Threats (APT) difficult to detect?",
-    "options": [
-      "They are always publicly announced.",
-      "They are stealthy, long-term attacks designed to avoid detection.",
-      "They are random and short-lived.",
-      "They only happen during business hours."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What are the four components of IAAA?",
-    "options": [
-      "Integrity, Access, Accuracy, Authorization.",
-      "Identification, Authentication, Authorization, Accountability.",
-      "Identification, Access, Availability, Accountability.",
-      "Input, Analysis, Authorization, Audit."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Give an example of how multi-factor authentication improves security.",
-    "options": [
-      "It uses a single factor multiple times.",
-      "It uses multiple proofs like a password and fingerprint, making access harder for attackers.",
-      "It disables encryption.",
-      "It only requires a long password."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What are the three types of authentication?",
-    "options": [
-      "Digital, analog, hybrid.",
-      "Knowledge (password), possession (token), inherence (fingerprint).",
-      "User, admin, guest.",
-      "Text, image, voice."
-    ],
-    "answer": 1
-  },
-  {
-    "question": "Why are strong passwords not enough for secure authentication?",
-    "options": [
-      "Strong passwords are always unbreakable.",
-      "Passwords make systems slower.",
-      "Passwords can be stolen or guessed; extra factors reduce the risk.",
-      "Hackers cannot bypass passwords."
-    ],
-    "answer": 2
-  },
-  {
-    "question": "What is the least privilege principle, and why is it important?",
-    "options": [
-      "It locks all user accounts permanently.",
-      "It removes passwords entirely.",
-      "Users get only the access they need, limiting damage from compromised accounts.",
-      "All users have admin rights for convenience."
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Explain the difference between DAC, MAC, and RBAC.",
-    "options": [
-      "DAC lets owners decide access; MAC enforces strict system policies; RBAC uses roles.",
-      "DAC and MAC are obsolete, only RBAC is used.",
-      "All three are identical security methods.",
-      "DAC uses passwords, MAC uses keys, RBAC uses biometrics."
+      "En phishing-attack som stjäl inloggningsuppgifter",
+      "Ett antivirusprogram som raderar filer",
+      "En brandvägg som blockar trafik",
+      "Att byta lösenord regelbundet"
     ],
     "answer": 0
   },
   {
-    "question": "How does ABAC work?",
+    "question": "Hur skulle du förklara CIA-triaden med egna ord?",
     "options": [
-      "It grants access based on attributes like role, time, or device.",
-      "It blocks all access by default.",
-      "It only works on wireless networks.",
-      "It uses a fixed password list."
+      "Confidentiality, Integrity, Availability",
+      "Computers, Internet, Access",
+      "Control, Identification, Authentication",
+      "Cryptography, Intelligence, Authorization"
     ],
     "answer": 0
   },
   {
-    "question": "What is non-repudiation, and how does it improve security?",
+    "question": "Varför är datakryptering viktig för konfidentialitet?",
     "options": [
-      "It ensures a user cannot deny their actions, often using digital signatures or logs.",
-      "It blocks all unverified users.",
-      "It removes accountability.",
-      "It encrypts all passwords automatically."
+      "Den skyddar data från obehörig åtkomst",
+      "Den gör datorn snabbare",
+      "Den säkerställer att nätverket fungerar",
+      "Den byter ut filer automatiskt"
     ],
     "answer": 0
   },
   {
-    "question": "What does SIEM stand for?",
+    "question": "Vilka är de tre tillstånden för data och hur påverkar de säkerheten?",
     "options": [
-      "Security Intelligence for Encrypted Messaging.",
-      "Security Information and Event Management.",
-      "System Integrity and Event Monitoring.",
-      "Secure Internet Email Management."
+      "Data i vila, i rörelse och i användning",
+      "Data i molnet, på datorn och på servern",
+      "Data som krypteras, lagras och raderas",
+      "Data i appar, på webben och i e-post"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Vilka säkerhetsåtgärder kan skydda data i rörelse?",
+    "options": [
+      "Kryptering, VPN, stark autentisering",
+      "Endast brandväggar",
+      "Att skriva ut datan",
+      "Använda USB-minnen"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Vad är social engineering och varför är det farligt?",
+    "options": [
+      "Att manipulera människor för känslig information",
+      "Att hacka servrar direkt",
+      "Att installera antivirus",
+      "Att uppgradera nätverkshårdvara"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hur fungerar en phishing-attack?",
+    "options": [
+      "Genom att lura offret att lämna ut information",
+      "Genom att förstärka Wi-Fi-signalen",
+      "Genom att säkerhetskopiera data",
+      "Genom att kryptera filer på datorn"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Vad skiljer spear phishing från vanlig phishing?",
+    "options": [
+      "Spear phishing riktar sig mot specifika individer",
+      "Spear phishing sker bara via telefon",
+      "Spear phishing är alltid lagligt",
+      "Spear phishing påverkar bara nätverkshårdvara"
+    ],
+    "answer": 0
+  },
+    {
+    "question": "Förklara en quid pro quo-attack på ett enkelt sätt.",
+    "options": [
+      "Angriparen erbjuder en tjänst i utbyte mot information eller åtkomst.",
+      "En attack som stör nätverket.",
+      "Att stjäla fysisk utrustning från ett kontor.",
+      "En phishing-attack via e-post."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hur lurar pretexting människor att lämna ut känslig information?",
+    "options": [
+      "Genom att överbelasta system med trafik.",
+      "Genom att skapa ett falskt scenario eller identitet för att vinna förtroende.",
+      "Genom att stjäla lösenord direkt från en server.",
+      "Genom att installera skadlig programvara."
     ],
     "answer": 1
   },
   {
-    "question": "How do security teams use SIEM tools to detect attacks?",
+    "question": "Vad är privilegieförhöjning, och hur kan det förhindras?",
     "options": [
-      "By encrypting every log file permanently.",
-      "By monitoring logs and alerts from multiple sources for suspicious behavior.",
-      "By scanning only personal emails.",
-      "By blocking all external communication."
+      "Att ge användare mer åtkomst än nödvändigt.",
+      "Att få högre åtkomsträttigheter än tillåtet, vilket kan förebyggas med säkerhetsuppdateringar och minsta privilegium.",
+      "Att förhindra nätverksattacker med brandväggar.",
+      "Att stjäla autentiseringsuppgifter från användare."
     ],
     "answer": 1
   },
   {
-    "question": "What is an audit trail, and how does it help with accountability?",
+    "question": "Förklara skillnaden mellan DoS- och DDoS-attacker.",
     "options": [
-      "A tool for deleting old files.",
-      "A way to encrypt system logs.",
-      "A record of actions in systems, showing who did what and when.",
-      "A method for tracking passwords."
+      "DoS använder många system, DDoS kommer från en källa.",
+      "DoS är en fysisk attack, DDoS är digital.",
+      "DoS attack kommer från en källa, DDoS använder många komprometterade system.",
+      "Båda är phishing-attacker."
     ],
     "answer": 2
   },
   {
-    "question": "Why is logging important in network security?",
+    "question": "Varför är Advanced Persistent Threats (APT) svåra att upptäcka?",
     "options": [
-      "It hides all activities from users.",
-      "It prevents password reuse.",
-      "It makes systems faster.",
-      "It helps detect and investigate security incidents."
+      "APT är kortvariga attacker som snabbt upptäcks.",
+      "APT använder stark kryptering för att dölja filer.",
+      "APT är långsiktiga och arbetar diskret för att undvika upptäckt.",
+      "APT är fysiska attacker mot servrar."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Vilka är de fyra delarna i IAAA (Identifiering, Autentisering, Auktorisering och Ansvarighet)?",
+    "options": [
+      "Identifiering: verifiera, Autentisering: påstå, Auktorisering: ge åtkomst, Ansvarighet: ignorera aktiviteter.",
+      "Identifiering: påstå en identitet, Autentisering: verifiera identitet, Auktorisering: ge åtkomsträttigheter, Ansvarighet: spåra aktiviteter.",
+      "Identifiering: stjäla identitet, Autentisering: logga in, Auktorisering: stänga åtkomst, Ansvarighet: logga ut.",
+      "Identifiering: lösenord, Autentisering: fingeravtryck, Auktorisering: token, Ansvarighet: e-post."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ge ett exempel på hur multifaktorautentisering (MFA) ökar säkerheten.",
+    "options": [
+      "MFA kräver endast ett starkt lösenord.",
+      "MFA kräver flera bevis, t.ex. lösenord plus fingeravtryck, vilket gör det svårare för angripare.",
+      "MFA krypterar all trafik automatiskt.",
+      "MFA blockerar alla okända IP-adresser."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Vilka är de tre typerna av autentisering? Ge ett exempel på varje.",
+    "options": [
+      "Kunskapsbaserad: lösenord, Innehavsbaserad: token, Inneboende: fingeravtryck.",
+      "Kunskapsbaserad: biometriskt, Innehavsbaserad: lösenord, Inneboende: token.",
+      "Kunskapsbaserad: IP-adress, Innehavsbaserad: dator, Inneboende: USB.",
+      "Alla typer är samma och kräver bara lösenord."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Varför är starka lösenord inte tillräckligt för säker autentisering?",
+    "options": [
+      "Lösenord kan stjälas, gissas eller återanvändas; MFA minskar risken.",
+      "Starka lösenord är alltid tillräckliga.",
+      "Lösenord kan bara användas på fysiska enheter.",
+      "Lösenord gör nätverket långsamt."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Vad är principen om minsta privilegium, och varför är den viktig?",
+    "options": [
+      "Användare får alla åtkomster, vilket förenklar administrationen.",
+      "Användare får bara åtkomst de behöver, vilket begränsar skador vid kompromettering.",
+      "Användare kan alltid höja sina privilegier.",
+      "Principen handlar om att kryptera alla filer."
+    ],
+    "answer": 1
+  },
+    {
+    "question": "Förklara skillnaden mellan DAC, MAC och RBAC i åtkomstkontroll.",
+    "options": [
+      "DAC styrs av användarroll, MAC låter användaren bestämma, RBAC är baserat på attribut.",
+      "DAC låter ägare bestämma åtkomst, MAC styrs strikt av systemet, och RBAC tilldelar åtkomst baserat på användarroller.",
+      "DAC är alltid strikt, MAC är flexibelt, RBAC kräver MFA.",
+      "Alla tre är samma typ av åtkomstkontroll."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hur fungerar ABAC (Attribute-Based Access Control)?",
+    "options": [
+      "ABAC tilldelar åtkomst baserat på ägarens beslut.",
+      "ABAC tillåter obegränsad åtkomst för alla.",
+      "ABAC är samma som RBAC.",
+      "ABAC ger åtkomst baserat på attribut som användarroll, tid, plats eller enhet."
     ],
     "answer": 3
   },
   {
-    "question": "What should an organization do after detecting a security breach?",
+    "question": "Vad är icke-avvisbarhet, och hur förbättrar det säkerheten?",
     "options": [
-      "Only delete infected files.",
-      "Ignore it if no money was stolen.",
-      "Contain it, find the cause, fix vulnerabilities, notify affected parties, and improve defenses.",
-      "Permanently shut down the network."
+      "Icke-avvisbarhet är ett nätverkshastighetsmått.",
+      "Icke-avvisbarhet innebär att en användare inte kan förneka sina handlingar, ofta genom digitala signaturer eller loggar.",
+      "Icke-avvisbarhet innebär att användaren kan ändra loggar.",
+      "Icke-avvisbarhet tillåter flera användare att dela samma konto."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Vad står SIEM för, och varför är det användbart inom cybersäkerhet?",
+    "options": [
+      "SIEM är en fysisk säkerhetskontroll.",
+      "SIEM betyder Security Information and Event Management; det samlar in och analyserar säkerhetsdata för att upptäcka hot.",
+      "SIEM är en typ av brandvägg som blockerar alla inkommande attacker.",
+      "SIEM är en antivirusprogramvara."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Hur använder säkerhetsteam SIEM-verktyg för att upptäcka attacker?",
+    "options": [
+      "De installerar SIEM på användarnas datorer för att blockera webbsidor.",
+      "De använder SIEM för att hantera lösenord.",
+      "De övervakar loggar och varningar från flera källor för att identifiera misstänkt beteende och snabbt kunna agera.",
+      "De använder SIEM för att kryptera all trafik automatiskt."
     ],
     "answer": 2
   },
   {
-    "question": "As a network administrator, what are three things to secure a company network?",
+    "question": "Vad är en revisionslogg (audit trail), och hur hjälper den till med ansvarighet?",
     "options": [
-      "Rely on antivirus alone.",
-      "Use firewalls/IDS-IPS, strong access controls, and regular updates.",
-      "Install only wireless access points.",
-      "Give all employees admin access."
+      "En revisionslogg är ett antivirusverktyg.",
+      "En revisionslogg används för att ändra systeminställningar.",
+      "En revisionslogg registrerar åtgärder i system, vilket gör det möjligt att spåra vem som gjort vad och när.",
+      "En revisionslogg är en lista med användarnamn utan detaljer om åtgärder."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Varför är loggning viktigt för nätverkssäkerhet?",
+    "options": [
+      "Loggning används endast för att mäta bandbredd.",
+      "Loggning hjälper till att upptäcka, undersöka och förebygga säkerhetsincidenter genom att registrera aktiviteter.",
+      "Loggning ersätter antivirusprogram.",
+      "Loggning gör nätverket långsammare och är därför inte rekommenderat."
     ],
     "answer": 1
   },
   {
-    "question": "How would you check if an email asking for login details is phishing?",
+    "question": "Vad bör en organisation göra efter att ha upptäckt ett säkerhetsintrång?",
     "options": [
-      "Delete the email immediately without checking.",
-      "Verify sender, check spelling, avoid links, and confirm via official channels.",
-      "Reply with fake credentials.",
-      "Click all links to see what happens."
+      "Organisationen bör begränsa intrånget, analysera orsaken, åtgärda sårbarheter, informera berörda parter och stärka skyddet.",
+      "Organisationen bör radera alla loggar.",
+      "Organisationen bör ignorera intrånget för att undvika panik.",
+      "Organisationen bör omedelbart stänga nätverket permanent."
     ],
-    "answer": 1
+    "answer": 0
+  },
+  {
+    "question": "Föreställ dig att du är nätverksadministratör. Nämn tre saker du skulle göra för att säkra ett företagsnätverk.",
+    "options": [
+      "Tillåta alla användare full åtkomst för enkel administration.",
+      "Använda endast antivirus, inga brandväggar.",
+      "Kryptera enskilda e-postmeddelanden utan nätverksåtgärder.",
+      "Implementera brandväggar och IDS/IPS, använda starka åtkomstkontroller och regelbundet uppdatera samt patcha system."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Om du fick ett e-postmeddelande som ber om dina inloggningsuppgifter, hur skulle du kontrollera om det är ett phishing-försök?",
+    "options": [
+      "Kontrollera avsändaradressen, leta efter stavfel, undvik att klicka på länkar och verifiera förfrågan via officiella kanaler.",
+      "Klicka på länkar för att se vad som händer.",
+      "Omedelbart skicka dina uppgifter för att testa avsändaren.",
+      "Radera e-postmeddelandet utan kontroll."
+    ],
+    "answer": 0
   }
 ]
