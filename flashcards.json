@@ -1,122 +1,122 @@
 [
   {
-  "question": "What is the difference between Information Security, IT Security, and Cybersecurity?",
-  "answer": "Information Security protects all forms of information, whether digital or physical. IT Security focuses on protecting IT systems and networks. Cybersecurity specifically defends computers, networks, and data from attacks originating from the internet."
+    "question": "Vad är skillnaden mellan informationssäkerhet, IT-säkerhet och cybersäkerhet?",
+    "answer": "Informationssäkerhet skyddar all information, både digital och fysisk. IT-säkerhet fokuserar på att skydda IT-system och nätverk. Cybersäkerhet försvarar datorer, nätverk och data mot attacker från internet."
   },
   {
-  "question": "How does fraud differ from a network attack?",
-  "answer": "Fraud involves deception to gain unauthorized benefits, often targeting people or financial systems. A network attack targets computer networks to disrupt, damage, or steal data from systems."
+    "question": "Hur skiljer sig bedrägeri från en nätverksattack?",
+    "answer": "Bedrägeri innebär att lura människor för att få obehöriga fördelar, ofta riktat mot personer eller ekonomiska system. En nätverksattack riktar sig mot datanätverk för att störa, skada eller stjäla data."
   },
   {
-  "question": "Give an example of how a network attack can lead to fraud.",
-  "answer": "An attacker might use a phishing attack (a type of network attack) to steal login credentials, then use those credentials to commit fraud such as unauthorized transactions or identity theft."
+    "question": "Ge ett exempel på hur en nätverksattack kan leda till bedrägeri.",
+    "answer": "En angripare kan använda en phishing-attack för att stjäla inloggningsuppgifter och sedan begå bedrägeri, till exempel obehöriga transaktioner eller identitetsstöld."
   },
   {
-  "question": "Explain the CIA Triad in your own words.",
-  "answer": "The CIA Triad stands for Confidentiality, Integrity, and Availability. It means keeping data private (Confidentiality), accurate and unchanged (Integrity), and accessible when needed (Availability). These are the core principles of information security."
+    "question": "Förklara CIA-triaden med egna ord.",
+    "answer": "CIA-triaden står för Konfidentialitet, Integritet och Tillgänglighet. Det innebär att hålla data privat (Konfidentialitet), korrekt och oförändrad (Integritet), samt åtkomlig när den behövs (Tillgänglighet)."
   },
   {
-  "question": "Why is data encryption important for confidentiality?",
-  "answer": "Data encryption transforms information into a coded format that only authorized users can read, protecting sensitive data from unauthorized access and ensuring confidentiality."
+    "question": "Varför är datakryptering viktig för konfidentialitet?",
+    "answer": "Datakryptering omvandlar information till ett kodat format som endast behöriga kan läsa, vilket skyddar känslig data från obehörig åtkomst."
   },
   {
-  "question": "What are the three states of data, and how do they affect security?",
-  "answer": "The three states of data are: Data at Rest (stored data), Data in Transit (data being transmitted), and Data in Use (data currently processed). Each state requires protection to prevent unauthorized access, modification, or loss."
+    "question": "Vilka är de tre tillstånden för data, och hur påverkar de säkerheten?",
+    "answer": "De tre tillstånden är: Data i vila (lagrad), Data i rörelse (under överföring), och Data i användning (bearbetas). Alla kräver skydd mot obehörig åtkomst, ändring eller förlust."
   },
   {
-  "question": "What security measures can help protect data in motion? Network Attacks & Threats",
-  "answer": "Security measures like encryption (e.g., TLS/SSL), secure VPNs, and strong authentication protect data in motion by preventing interception, tampering, and unauthorized access during transmission."
+    "question": "Vilka säkerhetsåtgärder kan skydda data i rörelse?",
+    "answer": "Kryptering (t.ex. TLS/SSL), säkra VPN-tjänster och stark autentisering skyddar data i rörelse mot avlyssning, manipulation och obehörig åtkomst."
   },
   {
-  "question": "What is social engineering, and why is it dangerous?",
-  "answer": "Social engineering is a manipulation technique where attackers trick people into revealing confidential information or performing actions that compromise security. It is dangerous because it exploits human trust rather than technical vulnerabilities."
+    "question": "Vad är social engineering, och varför är det farligt?",
+    "answer": "Social engineering är en manipulationsteknik där angripare lurar människor att avslöja känslig information eller utföra handlingar som äventyrar säkerheten. Det är farligt eftersom det utnyttjar mänsklig tillit istället för tekniska svagheter."
   },
   {
-  "question": "Describe how a phishing attack works.",
-  "answer": "A phishing attack tricks victims into clicking malicious links or providing sensitive information by pretending to be a trustworthy source, often via email or fake websites."
+    "question": "Beskriv hur en phishing-attack fungerar.",
+    "answer": "En phishing-attack lurar offer att klicka på skadliga länkar eller lämna ut känslig information genom att låtsas vara en pålitlig källa, ofta via e-post eller falska webbplatser."
   },
   {
-  "question": "What makes spear phishing different from normal phishing?",
-  "answer": "Spear phishing targets specific individuals or organizations with personalized messages, making it more convincing and harder to detect than general phishing attacks."
+    "question": "Vad gör spear phishing annorlunda från vanlig phishing?",
+    "answer": "Spear phishing riktar sig mot specifika individer eller organisationer med personligt anpassade meddelanden, vilket gör det mer övertygande och svårare att upptäcka."
   },
   {
-    "question": "Explain the quid pro quo attack in simple terms.",
-    "answer": "A quid pro quo attack involves an attacker offering a service or benefit in exchange for information or access, tricking victims into cooperating."
+    "question": "Förklara en quid pro quo-attack på ett enkelt sätt.",
+    "answer": "En quid pro quo-attack innebär att angriparen erbjuder en tjänst eller fördel i utbyte mot information eller åtkomst, vilket lurar offret att samarbeta."
   },
   {
-    "question": "How does pretexting trick people into giving up sensitive information?",
-    "answer": "Pretexting involves creating a fake scenario or identity to gain trust and convince people to share confidential information."
+    "question": "Hur lurar pretexting människor att lämna ut känslig information?",
+    "answer": "Pretexting bygger på att skapa ett falskt scenario eller en falsk identitet för att vinna förtroende och få människor att lämna ut information."
   },
   {
-    "question": "What is privilege escalation, and how can it be prevented?",
-    "answer": "Privilege escalation is when an attacker gains higher access rights than allowed. It can be prevented by applying patches, using least privilege, and monitoring systems."
+    "question": "Vad är privilegieförhöjning, och hur kan det förhindras?",
+    "answer": "Privilegieförhöjning innebär att en angripare får högre åtkomsträttigheter än tillåtet. Det kan förhindras med säkerhetsuppdateringar, principen om minsta privilegium och systemövervakning."
   },
   {
-    "question": "Explain the difference between DoS and DDoS attacks.",
-    "answer": "A DoS attack comes from one source to overwhelm a target, while a DDoS attack uses many compromised systems to flood the target, making it harder to block."
+    "question": "Förklara skillnaden mellan DoS- och DDoS-attacker.",
+    "answer": "En DoS-attack kommer från en källa och överbelastar målet, medan en DDoS-attack använder många komprometterade system för att attackera samtidigt, vilket gör den svårare att stoppa."
   },
   {
-    "question": "Why are Advanced Persistent Threats (APT) difficult to detect?",
-    "answer": "APTs are stealthy, long-term attacks by skilled attackers who carefully avoid detection and maintain access over time."
+    "question": "Varför är Advanced Persistent Threats (APT) svåra att upptäcka?",
+    "answer": "APT är långsiktiga, avancerade attacker där angripare arbetar diskret för att undvika upptäckt och behålla åtkomst under lång tid."
   },
   {
-    "question": "What are the four components of IAAA (Identification, Authentication, Authorization, and Accountability)?",
-    "answer": "Identification is claiming an identity; Authentication verifies it; Authorization grants access rights; Accountability tracks user actions."
+    "question": "Vilka är de fyra delarna i IAAA (Identifiering, Autentisering, Auktorisering och Ansvarighet)?",
+    "answer": "Identifiering är att påstå en identitet, Autentisering är att verifiera den, Auktorisering ger åtkomsträttigheter, och Ansvarighet innebär spårning av användaraktiviteter."
   },
   {
-    "question": "Give an example of how multi-factor authentication (MFA) improves security.",
-    "answer": "MFA requires multiple proofs, like a password plus a fingerprint, making it much harder for attackers to gain access."
+    "question": "Ge ett exempel på hur multifaktorautentisering (MFA) ökar säkerheten.",
+    "answer": "MFA kräver flera bevis, t.ex. ett lösenord plus ett fingeravtryck, vilket gör det mycket svårare för angripare att få åtkomst."
   },
   {
-    "question": "What are the three types of authentication? Provide an example for each.",
-    "answer": "Knowledge-based (password), possession-based (security token), and inherence-based (fingerprint)."
+    "question": "Vilka är de tre typerna av autentisering? Ge ett exempel på varje.",
+    "answer": "Kunskapsbaserad (lösenord), innehavsbaserad (säkerhetstoken), och inneboende (fingeravtryck)."
   },
   {
-    "question": "Why are strong passwords not enough for secure authentication?",
-    "answer": "Passwords can be stolen, guessed, or reused; additional factors reduce the risk of unauthorized access."
+    "question": "Varför är starka lösenord inte tillräckligt för säker autentisering?",
+    "answer": "Lösenord kan stjälas, gissas eller återanvändas; ytterligare faktorer minskar risken för obehörig åtkomst."
   },
   {
-    "question": "What is the least privilege principle, and why is it important?",
-    "answer": "It means users get only the access they need to perform tasks, limiting damage if accounts are compromised."
+    "question": "Vad är principen om minsta privilegium, och varför är den viktig?",
+    "answer": "Den innebär att användare endast får den åtkomst de behöver för sina uppgifter, vilket begränsar skador om konton komprometteras."
   },
   {
-    "question": "Explain the difference between DAC, MAC, and RBAC in access control.",
-    "answer": "DAC lets owners decide access; MAC is system-enforced with strict policies; RBAC assigns access based on user roles."
+    "question": "Förklara skillnaden mellan DAC, MAC och RBAC i åtkomstkontroll.",
+    "answer": "DAC låter ägare bestämma åtkomst, MAC styrs strikt av systemet, och RBAC tilldelar åtkomst baserat på användarroller."
   },
   {
-    "question": "How does ABAC (Attribute-Based Access Control) work?",
-    "answer": "ABAC grants access based on attributes like user role, time, location, or device used."
+    "question": "Hur fungerar ABAC (Attribute-Based Access Control)?",
+    "answer": "ABAC ger åtkomst baserat på attribut som användarroll, tid, plats eller enhet."
   },
   {
-    "question": "What is non-repudiation, and how does it improve security?",
-    "answer": "Non-repudiation ensures a user cannot deny their actions, often by using digital signatures or logs."
+    "question": "Vad är icke-avvisbarhet, och hur förbättrar det säkerheten?",
+    "answer": "Icke-avvisbarhet innebär att en användare inte kan förneka sina handlingar, ofta genom digitala signaturer eller loggar."
   },
   {
-    "question": "What does SIEM stand for, and why is it useful in cybersecurity?",
-    "answer": "SIEM means Security Information and Event Management; it collects and analyzes security data to detect threats."
+    "question": "Vad står SIEM för, och varför är det användbart inom cybersäkerhet?",
+    "answer": "SIEM betyder Security Information and Event Management; det samlar in och analyserar säkerhetsdata för att upptäcka hot."
   },
   {
-    "question": "How do security teams use SIEM tools to detect attacks?",
-    "answer": "They monitor logs and alerts from multiple sources to identify suspicious behavior and respond quickly."
+    "question": "Hur använder säkerhetsteam SIEM-verktyg för att upptäcka attacker?",
+    "answer": "De övervakar loggar och varningar från flera källor för att identifiera misstänkt beteende och snabbt kunna agera."
   },
   {
-    "question": "What is an audit trail, and how does it help with accountability?",
-    "answer": "An audit trail records actions in systems, helping trace who did what and when."
+    "question": "Vad är en revisionslogg (audit trail), och hur hjälper den till med ansvarighet?",
+    "answer": "En revisionslogg registrerar åtgärder i system, vilket gör det möjligt att spåra vem som gjort vad och när."
   },
   {
-    "question": "Why is logging important in network security?",
-    "answer": "Logging helps detect, investigate, and prevent security incidents by keeping records of activities."
+    "question": "Varför är loggning viktigt för nätverkssäkerhet?",
+    "answer": "Loggning hjälper till att upptäcka, undersöka och förebygga säkerhetsincidenter genom att registrera aktiviteter."
   },
   {
-    "question": "What should an organization do after detecting a security breach?",
-    "answer": "They should contain the breach, analyze the cause, fix vulnerabilities, notify affected parties, and improve defenses."
+    "question": "Vad bör en organisation göra efter att ha upptäckt ett säkerhetsintrång?",
+    "answer": "Organisationen bör begränsa intrånget, analysera orsaken, åtgärda sårbarheter, informera berörda parter och stärka skyddet."
   },
   {
-    "question": "Imagine you are a network administrator. What are three things you would do to secure a company network?",
-    "answer": "Implement firewalls and IDS/IPS, enforce strong access controls, and regularly update and patch systems."
+    "question": "Föreställ dig att du är nätverksadministratör. Nämn tre saker du skulle göra för att säkra ett företagsnätverk.",
+    "answer": "Implementera brandväggar och IDS/IPS, använda starka åtkomstkontroller och regelbundet uppdatera samt patcha system."
   },
   {
-    "question": "If you received an email asking for your login details, how would you check if it's a phishing attempt?",
-    "answer": "Check the sender's email, look for spelling errors, avoid clicking links, and verify requests through official channels."
+    "question": "Om du fick ett e-postmeddelande som ber om dina inloggningsuppgifter, hur skulle du kontrollera om det är ett phishing-försök?",
+    "answer": "Kontrollera avsändaradressen, leta efter stavfel, undvik att klicka på länkar och verifiera förfrågan via officiella kanaler."
   }
 ]
